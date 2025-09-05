@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"4e28dd7bcc77408a","type":"text","text":"Im Dorf (Brief von Milo)","x":-320,"y":-40,"width":250,"height":60},
+		{"id":"2ab155d13bf3c7c2","type":"text","text":"Bergpass\n\n\n\nDrachenhöhle\n\noder\n\nWolfsrudel\n\n","x":0,"y":-40,"width":250,"height":300},
+		{"id":"867f00f41f75080c","type":"text","text":"Es ist kalt (debuffs and malus)","x":280,"y":-40,"width":250,"height":60},
+		{"id":"72bbdc0265732dd1","type":"text","text":"Wolfangriff","x":280,"y":60,"width":250,"height":60},
+		{"id":"0f51aa6c1e59a86b","type":"text","text":"Rettung durch Zwerge","x":280,"y":160,"width":250,"height":60},
+		{"id":"4712b9b8af82f425","type":"text","text":"Eth Aldur","x":600,"y":-170,"width":156,"height":130},
+		{"id":"704312b40f4dcc58","type":"text","text":"Sidequests for Preparation","x":600,"y":-10,"width":156,"height":130},
+		{"id":"1c16d45a53e5c496","type":"text","text":"Intro Main Quest","x":600,"y":160,"width":156,"height":130},
+		{"id":"881b314b9314c9ab","type":"text","text":"Descend via Cart Race","x":800,"y":-105,"width":156,"height":130},
+		{"id":"5c6ff79b22ba8091","type":"text","text":"Lava City Exploration","x":1040,"y":-105,"width":156,"height":130},
+		{"id":"265d3aeb803a9359","type":"text","text":"Battle Molten Court","x":1260,"y":-200,"width":156,"height":130},
+		{"id":"863520ca2e2d11a1","type":"text","text":"Phase Battle Magmatic Coreborn","x":1520,"y":-200,"width":156,"height":130},
+		{"id":"ac99c678b96090a8","type":"text","text":"Molten Court","x":1091,"y":60,"width":156,"height":130},
+		{"id":"4d7f0893825ccc71","type":"text","text":"Ashure Fire Temple","x":1091,"y":230,"width":156,"height":130},
+		{"id":"089107fb02273587","type":"text","text":"Enable Portal","x":1122,"y":460,"width":250,"height":60},
+		{"id":"22d7a039a162bb81","type":"text","text":"Molten Court (intro)","x":1560,"y":-20,"width":156,"height":130},
+		{"id":"e5b6c8ef68ae6903","type":"text","text":"Burning City 1 ","x":1560,"y":140,"width":156,"height":130},
+		{"id":"74edd5e6b91492df","type":"text","text":"Burning City 2","x":1560,"y":300,"width":156,"height":130},
+		{"id":"13aae52b47c2e380","type":"text","text":"Last Stand","x":1560,"y":455,"width":156,"height":130},
+		{"id":"9497e3b5fd8d67b2","type":"text","text":"Escape","x":1760,"y":-200,"width":156,"height":130},
+		{"id":"06192d1f5bfddf48","type":"text","text":"Schutzpatron Oracle (Legende)\n","x":600,"y":320,"width":156,"height":130}
+	],
+	"edges":[]
+}

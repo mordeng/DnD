@@ -1,0 +1,9 @@
+- **Dauer:** 1 Stunde
+- **Effekte:**
+    - **Charismatischer Nebelschleier:** Der Trinker erhält einen **Vorteil auf Charisma-basierte Fertigkeitswürfe** (z.B. Überzeugen, Täuschen, Einschüchtern) und einen **+2 Bonus auf Geschicklichkeitswürfe** für Akrobatik oder Heimlichkeit.
+    - **Schützende Aura:** Eine subtile, schlangenartige Aura umgibt den Trinker, die ihm einen **+1 Bonus auf die Rüstungsklasse (RK)** verleiht und **Widerstand gegen magische Angriffe** bietet.
+    - **Magische Präsenz:** Kreaturen innerhalb eines Umkreises von 3 Metern um den Trinker haben **Widerstand gegen Furcht** und sind weniger geneigt, aggressive Handlungen gegen ihn zu unternehmen.
+    - **Verbesserte Tarnung:** Der Trinker kann sich besser tarnen und erhält einen **Vorteil auf Heimlichkeitswürfe**, da die schlangenartigen Muster in der Aura seine Bewegungen verschleiern.
+- **Nebenwirkungen:**
+    - **Erschöpfung und Regeneration:** Nach Ablauf der Wirkung fühlt sich der Trinker leicht erschöpft und erhält **-1 auf die nächsten Geschicklichkeitswürfe**. Zudem benötigt er **eine kurze Ruhepause**, um sich vollständig zu erholen.
+    - **Veränderte Wahrnehmung:** Während der Trank wirkt, kann die Wahrnehmung der Umgebung leicht verzerrt sein, was zu **-1 auf Wahrnehmungswürfe** führen kann.

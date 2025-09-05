@@ -92,15 +92,43 @@ Aus Angst vor RR-Vergeltung verließen wir alle schnell die Stadt.
 ## 03 - Avernus: Wo Städte verschwinden
 *Tag 135-heute*
 
+**Persönliche Wendungen des Schicksals:**
+Nach unserer Flucht aus Baldur's Gate war jeder von uns aus anderen Gründen bereit, nach Elturel zu reisen. Kalmaris suchte nach einer neuen Identität, nachdem der Spiegeldämon ihm seine Piratenherkunft geraubt hatte - vielleicht würde eine Reise in die Hölle selbst ihm zeigen, wer er wirklich war. 
+
+In den letzten Tagen in Baldur's Gate hatte ich bemerkt, dass er manchmal seltsam in Spiegel starrte, aber ich dachte mir nichts dabei - wir alle waren nach den Ereignissen ein wenig verwirrt.
+
+Lamil spürte eine tiefe Unruhe in der Natur. Als Hüter des Wildfire-Kreises fühlte er, dass die teuflischen Kräfte das natürliche Gleichgewicht bedrohten. Außerdem hatte er den Verdacht, dass sein alter Feind Morgath Dunkelschatten mit diesen höllischen Mächten in Verbindung stehen könnte.
+
+Lufnik war von einer anderen Sorge getrieben: Sein bester Freund Arian Brightwater, seit dem Krieg verschollen, könnte in Elturel gewesen sein. Der Handelsposten zog viele Reisende an, und Lufniks zweite Chance durch den Mond bedeutete, dass er jeden Hinweis auf seinen Freund verfolgen musste.
+
+Der arme Longjohn trauerte immer noch um seinen geliebten Blacky, der gegen das Feuer-Elemental gefallen war. Aber mehr noch brannte in ihm der Wunsch nach Rache gegen jenen Piratenkapitän mit der Narbe über dem linken Auge. Gerüchte besagten, dass solche skrupellosen Seelen oft Pakte mit Teufeln schlossen...
+
+Und Serox? Sein Schmiedeherz schlug schneller bei dem Gedanken an die legendären Materialien, die nur in den Schmieden der Hölle zu finden waren. Seine Suche nach der perfekten Rüstung könnte in Avernus ihre Vollendung finden.
+
 **Der Weg nach Elturel:**
-Nach unserem Aufbruch aus Baldur's Gate wollten wir nach Elturel. Auf halber Strecke trafen wir Flüchtlinge, die von verschwundenen Menschen in Elturel berichteten. Lamil hatte ein ungutes Gefühl, also campten wir in der Mitte des Weges.
+So machten wir uns auf den Weg, jeder mit seinen eigenen Beweggründen. Auf halber Strecke trafen wir Flüchtlinge, die von verschwundenen Menschen in Elturel berichteten. Lamils Unruhe verstärkte sich - die Natur selbst schien zu warnen. Wir beschlossen, in der Mitte des Weges zu campen.
 
 **Die Nacht des Verschwindens:**
-Laute Geräusche und magische Wellen weckten uns - Elturel war verschwunden! An seiner Stelle fanden wir nur einen gewaltigen Krater. Ein untotes Reittier jagte uns, aber wir besiegten es nach einem harten Kampf.
+Was für eine Nacht! Laute Geräusche und magische Wellen, die selbst meine empfindlichen Gnomenohren schmerzten, weckten uns. Als wir aufblickten, war Elturel... verschwunden! An seiner Stelle klaffte nur ein gewaltiger Krater, als hätte eine riesige Hand die Stadt aus der Erde gerissen.
 
-Danach begegneten wir Captain Zodge...
+Lamil war entsetzt - solche Zerstörung ging gegen alles, woran er als Druid glaubte. Lufnik starrte in den Krater, seine Hoffnung auf Neuigkeiten über Arian zerschmettert. Kalmaris' Gesicht war eine Maske der Entschlossenheit, während Longjohn finster schwieg. Serox griff nach seinem Hammer, bereit für den Kampf.
 
-*Das Abenteuer geht weiter, und ich schreibe täglich in dieses Logbuch. Was für aufregende Zeiten!*
+Ein untotes Reittier jagte aus dem Krater hervor und griff uns an! Der Kampf war hart, aber meine Freunde - diese wunderbaren, tapferen Seelen - besiegten die Kreatur gemeinsam.
+
+**Captain Zodge und neue Verbündete:**
+Nach der Schlacht erschien Captain Zodge von den Flaming Fists. Er erzählte uns die schreckliche Wahrheit: Elturel war in die Hölle selbst gezogen worden! Die Stadt hing nun über dem Fluss Styx in Avernus, der ersten Ebene der Neun Höllen.
+
+Jeder von uns hatte nun einen persönlichen Grund, in die Hölle zu reisen:
+- Kalmaris sah es als ultimative Prüfung seiner neuen Identität
+- Lamil musste das natürliche Gleichgewicht wiederherstellen  
+- Lufnik wollte herausfinden, ob Arian noch lebte
+- Longjohn hoffte auf Spuren seines verhassten Feindes
+- Serox träumte von höllischen Schmiedematerialien
+- Und ich? Ich konnte meine Freunde nicht allein lassen!
+
+So beginnt unser waghalsigster Auftrag: eine Reise nach Avernus selbst...
+
+*Das Abenteuer nimmt eine Wendung, die selbst meine wildesten alchemistischen Experimente in den Schatten stellt!*
 
 ---
 

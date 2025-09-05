@@ -1,120 +1,174 @@
--  **Begegnung mit Captain Zodge und erste Mission:**
-    - Eure Spieler werden feststellen, dass sie von der **Flaming Fist** eingezogen wurde
-    - Captain Zodge wird ihnen **Befehle erteilen, die sie nicht ablehnen können**, da die Flaming Fist in Notfällen Abenteurer rekrutieren darf
-- **Zodge** wird bestätigen, dass die heilige Stadt **Elturel verschwunden** ist und nur noch ein Krater zurückbleibt
-    ◦ Er wird auch mitteilen, dass **Großherzog Ulder Ravengard** von Baldur's Gate, der auf diplomatischer Mission in Elturel war, **vermisst** wird
-- Dies hat in Baldur's Gate zu Panik geführt, da viele befürchten, dass ihre eigene Stadt als Nächstes fallen könnte
+# Auf nach Candlekeep - Überarbeitete Session
 
-Die Spieler erhalten eine Puzzlebox die sie zu Candlekeep bringen sollen, da es dort ein Bibliothek gibt sowie Gelehrte, die Rausfinden sollen was passiert ist.
+## 1. Captain Zodge und die Zwangsrekrutierung
 
+### Die Begegnung mit Zodge
+- **Zodges Notstandsrekrutierung:** Captain Zodge und die Flaming Fist treffen auf die Gruppe am Kraterrand von Elturel
+- **Zwangsrekrutierung:** "Im Namen der Flaming Fist und der Stadt Baldur's Gate werdet ihr hiermit in den Notstandsdienst eingezogen. Widerstand ist zwecklos."
+- **Die schreckliche Nachricht:** Elturel ist in die Hölle gezogen worden - Großherzog **Ulder Ravengard** war auf diplomatischer Mission dort und ist nun verschwunden
 
-
-• **Liara Portyr übernimmt das Kommando:** Zu diesem Zeitpunkt ist es wahrscheinlich, dass **Commander Liara Portyr** in Baldur's Gate eingetroffen ist, um das Kommando über die Flaming Fist zu übernehmen, da Großherzog **Ulder Ravengard** verschwunden ist. Sie wird ihre Dankbarkeit für die Hilfe der Spieler ausdrücken und sie nachdrücklich ermutigen, Ravengard und Elturel zu retten. Liara wird ihnen Reittiere und Vorräte für die fünftägige Reise nach Candlekeep zur Verfügung stellen
-
-**Begleiter auf der Reise:**
-
-	 ◦ **Falaster Fisk**, der Spion von **Sylvira Savikas** (sofern er aus der Vanthampur-Villa gerettet wurde), wird sich ihnen anschließen. Er wird sie durch Little Calimshan führen, um Waffen zu besorgen, und ein altes Kochbuch als Eintrittsgeschenk für Candlekeep mitnehmen
-	
-	◦ **Reya Mantlemorn**, die Hellriderin (sofern sie sich der Gruppe angeschlossen hat), wird sie ebenfalls begleiten
+### Das Flaming Fist Lager
+- **Sofortige Teleportation:** "Wir haben keine Zeit zu verlieren. Die Gelehrten in Candlekeep müssen diese Puzzlebox sofort untersuchen."
+- **Gruppen-Teleportation:** Ein Kriegszauberer der Flaming Fist teleportiert die gesamte Gruppe direkt nach Candlekeep
+- **Die mysteriöse Puzzlebox:** Zodge überreicht eine komplexe infernalische Puzzlebox: "Das ist alles, was wir aus den Trümmern retten konnten."
 
 ---
 
-2. Ankunft in Candlekeep
+## 2. Ankunft in Candlekeep
 
- **Eintritt in die große Bibliothek:** Candlekeep ist eine majestätische Festung, die für ihre riesige Bibliothek bekannt ist
+### Sofortiger Zugang
+- **Notstandsprotokoll:** Als offizielle Abgesandte der Flaming Fist erhalten sie sofortigen Zugang
+- **Die Mönche des Deneir:** Drei Mönche empfangen sie mit Sorge - die Nachrichten aus Baldur's Gate sind bereits angekommen
+- **Sylvira Savikas:** Die tieflingische Expertin für die Neun Höllen erwartet sie bereits
 
-Um Zutritt zu erhalten, müssen die Spieler den Mönchen der Bibliothek ein Buch oder eine Schriftrolle überreichen, die sich noch nicht in deren Archiven befindet. Das Kochbuch von **Falaster Fisk** oder das Buch _Apocalypto_ von **Thurstwell Vanthampur** (wenn die Spieler es in der Villa gefunden haben) wären geeignete Geschenke
+---
 
+## 3. In Sylviras Labor - Die große Enthüllung
 
-**Die Mönche von Candlekeep:** Drei Mönche des Deneir, des Gottes der Schrift, werden die Spieler am Tor empfangen und ihre Gaben prüfen
+### Die Fraktionen kommen zusammen
+Sylvira hat Vertreter verschiedener Organisationen versammelt:
 
+**Azure Enclave Vertreter:** *Für Lamil*
+- Ein Druide des Circle of the Land erkennt Lamil als Wildfire-Bruder
+- "Die Naturgeister schreien vor Schmerz. Diese Störung des Gleichgewichts darf nicht bleiben."
 
-3. Begegnung mit Sylvira Savikas
+**Mechaniker-Kollektiv Forscher:** *Für Milo*
+- Ein Gnomen-Erfinder mit alchemistischen Geräten
+- "Milo Quickspark! Deine Forschungen über dimensionale Alchemie könnten hier entscheidend sein!"
 
-	• **Sylviras Labor:** **Falaster Fisk** (falls anwesend) wird die Spieler direkt zu **Sylvira Savikas**' Labor führen, das sich in einem der Türme von Candlekeep befindet
-	
-	. **Sylvira** ist eine tieflingische Expertin für die Neun Höllen und hat die Teufelei in Baldur's Gate und Elturel seit Monaten überwacht
+**Ehemaliger Flaming Fist Veteran:** *Für Serox und Lufnik*
+- Erkennt ihre militärischen Hintergründe
+- "Soldaten wie ihr werden in diesem Krieg gebraucht. Dies ist größer als jede Schlacht, die wir gekannt haben."
 
+**Informationsnetzwerk:** *Für Kalmaris und Longjohn*
+- Kontakte aus den Hafenvierteln und Piratenkreisen
+- "Die Seefahrergilden berichten von seltsamen Portalen über den Gewässern. Dies betrifft alle."
 
-• **Die Puzzle Box:** **Sylvira** wird von der Puzzle Box begeistert sein
+### Das Öffnen der Puzzlebox
+- **Sylviras Expertise:** Sie gießt eine dunkle, rauchdende Flüssigkeit in die labyrinthartigen Rillen
+- **Die Enthüllung:** Neun kettenverbundene Eisenplatten mit infernalischen Runen
+- **Der Vertrag:** Thavius Kreeg's Pakt mit Erzfürstin Zariel wird offenbart
+- **Seelenmünzen:** Mehrere Seelenmünzen fallen heraus - gefangene Seelen in Münzform
 
-. Sie ist eine Expertin für solche magischen Artefakte und weiß, wie sie geöffnet werden. Sie wird die Box öffnen, indem sie eine dunkle Flüssigkeit in die labyrinthartigen Rillen auf ihrer Oberfläche gießt, wodurch sich die Box schließlich löst
+### Persönliche Motivationen erwachen
 
+**Kalmaris:** 
+- Eine Seelenmünze flüstert ihm zu - vertraute Stimmen aus reflektierenden Oberflächen
+- Der Spiegeldämon in ihm reagiert auf die höllischen Energien
 
+**Lamil:**
+- Seine Wildfire-Flamme flackert unruhig bei Anblick der korrumpierten Magie
+- Visionen von brennenden Wäldern und pervertierter Natur
 
-4. Die Enthüllung des Paktes mit Zariel
+**Lufnik:**
+- Das Mondlicht in Candlekeep scheint gedämpft - als würde etwas es verschleiern
+- Seltsame Schatten, die nicht zu den Objekten passen
 
-• **Der infernale Vertrag:** Im Inneren der Puzzle Box finden die Spieler **neun kettenverbundene Eisenplatten** mit infernalischen Runen
+**Longjohn:**
+- Eine der Seelenmünzen zeigt kurz das Bild eines Schweines
+- "Blacky?" flüstert er hoffnungsvoll
 
-. Diese Runen sind der **Vertrag von Thavius Kreeg mit der Erzfürstin Zariel**. Der Vertrag besagt, dass **Thavius Kreeg**, der frühere Hohe Aufseher von Elturel, **Zariel** auf ewig seine Treue geschworen hat und Elturel dadurch an Avernus gebunden wurde
+**Serox:**
+- Die infernalischen Runen sind in einer Schmiedetechnik gefertigt, die er nicht kennt
+- Seine Schmiedehände kribbeln bei Berührung des höllischen Metalls
 
+**Milo:**
+- Die alchemistischen Reaktionen der Puzzlebox faszinieren ihn
+- "Die interdimensionale Energieübertragung ist... außergewöhnlich!"
 
+---
 
-• **Reyas Reaktion:** Wenn **Reya Mantlemorn** anwesend ist, wird sie von dieser Offenbarung tief getroffen sein. Sie wird zusammenbrechen und weinen, da sie durch den Creed Resolute (den Eid, der Elturel bindet) mit der Stadt verbunden ist und nun den unwiderstehlichen Drang verspürt, nach Elturel zurückzukehren
+## 4. Das große Ritual - Milos Hilfe
 
+### Vorbereitung des Plane Shift Rituals
+- **Traxigor ist bereits da:** Der Otter-Zauberer ist aus seinem Turm geholt worden
+- **Lulu bleibt in Candlekeep:** Die Hollyphant ist zu schwach für eine Höllenreise, ihre Erinnerungen sind noch zu fragmentiert
+- **Milos entscheidende Rolle:** Seine alchemistische Expertise ist für die Modifikation des Plane Shift-Zaubers notwendig
 
-5. Weitere Informationen von Sylvira
+### Das Ritual
+- **Milo als Ritualassistent:** "Die dimensionalen Energien müssen stabilisiert werden!"
+- **Seine Formeln:** Komplexe alchemistische Berechnungen für den sicheren Transport
+- **Der Kommunikationszauber:** Milo webt einen speziellen Zauber ins Portal: "Blobby wird euer Kommunikationsmedium sein!"
+- **Blobby bekommt eine neue Fähigkeit:** Der Familiar wird mit einem telepathischen Link zu Milo verzaubert
+- **Erfolg:** Das Portal nach Avernus öffnet sich stabil
 
+### Die Täuschung
+- **"Kleine Verzögerung":** "Ich muss noch die letzten Kalibrierungen prüfen..."
+- **Versehentlich zurückgelassen:** Als das Portal zu schließen beginnt, ist Milo "noch nicht bereit"
+- **Seine Opferbereitschaft:** "Geht! Ich finde einen anderen Weg! Rettet Elturel!"
+- **Die Wahrheit:** Milo wird absichtlich zurückgelassen, um die Gruppe zu schützen
 
+---
 
-Der darin gefangene Grubenfiend **Gargauth** wird versuchen, die Spieler telepathisch zu überzeugen, ihn mit in die Neun Höllen zu nehmen, um seine Flucht zu ermöglichen und ihnen im Gegenzug als Führer und Berater zu dienen
+## 5. Blobby als Kommunikationsmedium
 
+### Die neue Verbindung
+- **Verzauberter Familiar:** Durch Milos Ritual erhält Blobby eine telepathische Verbindung zu seinem Meister
+- **Milos Stimme durch Blobby:** "Könnt ihr mich hören? Blobby ist jetzt unser Kommunikationskanal!"
+- **Begrenzte Reichweite:** Die Verbindung funktioniert nur in bestimmten magischen Bereichen von Avernus oder bei starken emotionalen Momenten
+- **Blobbys Persönlichkeit:** Der Familiar übersetzt Milos wissenschaftliche Sprache in einfachere Worte
 
-• **Die Karte von Avernus:** **Sylvira** wird den Spielern eine **Karte von Avernus** aushändigen – die einzige, die in Candlekeep bekannt ist
+### Lulu in Candlekeep
+**Ihre Rolle als Beraterin:**
+- Lulu bleibt bei Sylvira und erforscht alte Texte über Zariel
+- **Fernberatung:** Über Blobbys Verbindung kann sie wichtige Informationen übermitteln
+- **Erwachende Erinnerungen:** Sie beginnt sich an ihre Zeit mit Zariel zu erinnern
 
-- Sie warnt jedoch, dass die Karte unzuverlässig ist, da ihr Schöpfer während der Erstellung wahnsinnig geworden ist
+**Phase 1 - Die ersten Fragmente:**
+- Lulu zu Blobby: "Sag ihnen... ich erinnere mich an eine Zeit, als Avernus grün war..."
+- Übermittlung durch Blobby: "Blobby sagt, die weiße Elefanten-Dame erinnert sich an grüne Plätze!"
 
+**Phase 2 - Zariel-Verbindung:**
+- Lulu: "Da war eine Kriegerin... so tapfer, so rein... sagt ihnen, sie sollen nach dem Schwert des Triumphs suchen!"
+- Blobby: "Die Elefanten-Dame weint und spricht von einem glänzenden Schwert!"
 
-• **Nächste Schritte – Der Weg nach Avernus:** Da Candlekeep selbst durch magische Bannungen vor Planarreisen geschützt ist, kann **Sylvira** sie nicht direkt nach Avernus schicken
+### Milos Fernunterstützung über Blobby
+- **Strategische Beratung:** "Blobby, sag ihnen, sie sollen zu den [Ort] gehen. Ich habe die Karten studiert!"
+- **Alchemistische Tipps:** "Serox, über Blobby: Das höllische Erz ist sehr heiß! Handschuhe anziehen!"
+- **Emotionale Unterstützung:** "Blobby übermittelt Milos Umarmung! Er glaubt an euch!"
+- **Wichtige Warnungen:** "Milo schreit durch Blobby: Nicht dem ersten Teufel vertrauen!!"
+- **Lulus Wissen:** "Die Elefanten-Dame Lulu sagt, Zariel hatte einen geheimen Garten... Blobby zeigt Bilder von Blumen!"
 
-. Stattdessen wird sie sie zu **Traxigor** schicken, einem exzentrischen Zauberer, der 20 Meilen entfernt in einem schwebenden Turm lebt. **Traxigor** schuldet ihr einen Gefallen und kann den _plane shift_-Zauber wirken, um sie nach Elturel zu bringen. Sie erwähnt auch, dass **Traxigor** eine alte Freundin von ihr beherbergt: eine **Hollyphant** namens **Lulu**, die eine Geschichte im Kampf gegen Teufel in den Neun Höllen hat
+---
 
-.
+## 6. Die Ankunft in Avernus
 
-6. Reise zu Traxigors Turm und Begegnung mit Lulu
+### Der schockierende Anblick
+- **Elturel über dem Styx:** Die Stadt hängt 500 Fuß über dem Totenfluss
+- **Der korrumpierte Companion:** Einst Licht, nun ein pulsierender dunkler Orb
+- **Blobbys erste Reaktion:** Der Familiar zittert und gibt seltsame Geräusche von sich
 
-• **Der Flug mit Greifen:** **Sylvira** wird Greifen bereitstellen, die die Gruppe zu **Traxigors** schwebendem Turm fliegen
+### Erste Kontakte
+- **Milos Stimme durch Blobby:** "Blobby übersetzt: Meister Milo sagt... ihr müsst... Zariel finden... sie ist der Schlüssel..."
+- **Verbindungsprobleme:** Die telepathische Verbindung schwankt durch die höllische Umgebung
+- **Lulus Botschaft über Blobby:** "Die Elefanten-Dame sendet Traurigkeit... aber auch Hoffnung! Wir können sie alle retten!"
 
-.
+### Die Mission beginnt
+- **Persönliche Stakes:** Jeder Charakter hat nun einen klaren, persönlichen Grund für die Mission
+- **Blobby als Kommunikationskanal:** Der verzauberte Familiar wird zur wichtigsten Verbindung zur Außenwelt
+- **Duale Beratung:** Sowohl Milo (Strategie/Alchemie) als auch Lulu (Zariel-Geschichte) helfen über Blobby
+- **Das Ziel:** Zariel finden, den Vertrag brechen, Elturel retten - und vielleicht sogar die gefallene Engelin erlösen
 
-• **Traxigors Turm:** Dort treffen sie auf **Traxigor**, der als Otter oder in seiner wahren Form erscheinen kann, und auf der Suche nach seiner vermissten Stimmgabel ist, die für den _plane shift_-Zauber in die Neun Höllen unerlässlich ist
+---
 
-.
+## Spielnotizen
 
-• **Begegnung mit Lulu:** Die Spieler werden auch **Lulu** treffen, eine **Hollyphant**, die den größten Teil ihrer Erinnerungen und Fähigkeiten verloren hat
+### Charaktermotivationen verstärkt:
+- **Kalmaris:** Gargauths Erwachen durch höllische Energien
+- **Lamil:** Direkter Auftrag seiner Naturverbündeten 
+- **Lufnik:** Erste Anzeichen, dass seine Mondverbindung gestört wird
+- **Longjohn:** Konkrete Hoffnung auf Blackys Rettung
+- **Serox:** Fascination mit höllischen Schmiedetechniken
+- **Milo:** Opfert sich für die Gruppe, bleibt als telepathischer Berater
 
-. Sie ist von entscheidender Bedeutung für das Abenteuer, da ihre fragmentierten Erinnerungen eine persönliche Verbindung zu **Zariel** aufweisen
+### Blobby als Kommunikationsbrücke:
+- **Verzauberter Familiar:** Telepathische Verbindung zu Milo
+- **Duale Beratung:** Übermittelt sowohl Milos als auch Lulus Ratschläge
+- **Komische Übersetzungen:** Wandelt komplexe Informationen in Blobby-Sprache um
+- **Emotionale Verbindung:** Hält die Gruppe mit ihren Verbündeten in Candlekeep verbunden
 
-.
-
-7. Der Planare Sprung nach Elturel
-
-• **Charakter-Aufstieg:** Bevor sie **Traxigors** Turm verlassen, sollten die Spieler auf **Stufe 5** aufsteigen
-
-.
-
-• **Ankunft in Elturel:** Sobald **Traxigor** seine Stimmgabel gefunden hat, wird er den _plane shift_-Zauber wirken, der die Spieler, **Lulu** und **Reya** (falls sie dabei ist) direkt nach Elturel transportiert
-
-.
-
-• **Traxigors Flucht:** **Traxigor** wird jedoch bei der Ankunft nervös den schwarzen Orb über Elturel betrachten und sofort mit _time stop_ und _fly_ fliehen, da er kein Interesse daran hat, Elturel zu retten oder am Blutkrieg teilzunehmen
-
-.
-
-• **Die Schockierende Realität:** Elturel hängt nun 500 Fuß über dem Fluss Styx, gefesselt von riesigen infernalischen Ketten
-
-. Der Companion, einst ein Licht der Hoffnung, ist nun ein dunkler, knisternder Orb. Die Stadt ist ein Ort des Untergangs und der Verzweiflung, überrannt von Dämonen und Teufeln, die sich gegenseitig bekämpfen und die Stadt langsam in den Styx ziehen
-
-.
-
-• **Lulus Wiedererwachen:** Bei der Rückkehr nach Avernus wird **Lulu** ihre Fähigkeit erlangen, den _light_-Zauber beliebig oft zu wirken, und beginnen, sich an ihre Umgebung zu erinnern, wenn auch auf eine schreckliche Weise
-
-.
-
-• **Reyas Entschlossenheit:** **Reya** wird angesichts der Zerstörung Elturels noch entschlossener sein, ihre Stadt zu retten, und anbieten, die Gruppe zur High Hall-Kathedrale zu führen, um nach Überlebenden oder einem Anführer zu suchen
-
-.
-
-• **Gargauths Verzweiflung:** Wenn die Spieler den _Shield of the Hidden Lord_ dabei haben, wird **Gargauth** verzweifelt versuchen, aus dem Schild zu entkommen, und die Spieler drängen, sich nicht in der Stadt aufzuhalten
-
-.
+### Lulu in Candlekeep:
+- **Forschungsrolle:** Arbeitet mit Sylvira an Zariel-Informationen
+- **Fernberatung:** Sendet wichtige Erkenntnisse über Blobby
+- **Erwachende Erinnerungen:** Ihre Zariel-Erinnerungen wachsen während der Kampagne
+- **Sicherheit:** Bleibt in Candlekeep, bis sie stark genug für eine Höllenreise ist

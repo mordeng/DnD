@@ -1,123 +1,110 @@
-# 00 Moreva
-After being stranded on moreva and figuring out why people loosing their minds in the area, they defeated the shadow dragon and freed the people of moreva.
-During the Afterparty Milo gets invioted to a big reasearch projet by the RR Guilde in Baldurs gate and he temporary leaves the party for the big reasearch party
+# Milo Quicksparks Abenteuerlogbuch
+*Geschrieben während langer Nächte bei Kerzenlicht und immer mit einer Tasse Tee in der Nähe*
 
-# 01 Deep Underground
-The party figures out that Moreva is sourrundend by the sea and mountains. As the party stranded before and the sea is wild, tehy decide to go the mountain way.
+---
 
-As they climb the mountain its getting colder and colder and snow falls. The party need to cross a bridge and get attacked by a grifffin, they eventually manage to go over it without a fight.
+## 00 - Moreva: Wo alles begann
+*Tag 1-23 unserer gemeinsamen Reise*
 
-As they continue to climb and its getting colder, they found a big cave. They explore it but they find wweird frozen statues in there. Because of that, they decide to make a hidden camp in one of the side arms. Luckily, because later a big white dragon appears but they manage to hide from him.
+Oh, was für ein Abenteuer! Nach unserem Schiffbruch auf Moreva dachten wir zunächst, es wäre nur schlechtes Glück gewesen. Aber nein! Die Menschen hier verloren buchstäblich den Verstand - nicht nur wegen meiner experimentellen Kochkünste, wie ich anfangs befürchtete. Es stellte sich heraus, dass ein finsterer Schattendrache dahintersteckte. 
 
+Meine lieben Gefährten - Kalmaris mit seinen Piratenkünsten, der edle Lamil, der akrobatische Lufnik, der starke Serox und der listige Longjohn - wir haben diesen Drachen gemeinsam besiegt! Die Menschen von Moreva sind nun frei, und das verdanken sie uns.
 
-On the next after leaving the cave, they get attacked by a packk of frost wolves. they manage to fend them off. Right aftert the battel a garrison of dwarfs spot them. They are friendly and invite them to their city in the mountains.
+In der Nachfeier geschah dann etwas Bemerkenswertes: Die RR-Gilde aus Baldur's Gate lud mich zu einem großartigen Forschungsprojekt ein! Ich konnte nicht widerstehen - die Wissenschaft rief! So verließ ich vorübergehend meine treuen Freunde.
 
-In the city, where it is hot, and getting hotter every day. they do a couple of side quest like forging or mining (check city quests). 
-they eventually get a quest to go deeper on the mountain to figure out why its getting hotter.
-They get down my an old mine area and od a mine cart race.
-As they are at their destination they find an ancient templa area with lava lake.
-They eventually find a trapped Fire God in  a temple , that thells them about the magma elemental that stole his ppower and getting stronger and stronger each day. They also suffer from the heat.
+*Anmerkung: Ach, wie naiv ich damals war...*
 
-Lufnik attempts to do a flick flack over briddle bridge and drops into the lava. After fast reaction of teh party he barely survives but gets out. To thiis day he is afraid of lava and fire.
+---
 
-They then go to the templa and interrupt a powe transffer ritual, which summons the magma elemental. It is huge and its destroying the temple. they eventually only manage to withstand on a littel leftover island in the lava lake and manage to survive, until the fire god appears and helps them.
+## 01 - Tief unter der Erde: Feuer und Eis
+*Tag 24-67*
 
+Meine Freunde entdeckten, dass Moreva von Bergen und dem wilden Meer umgeben war. Da sie bereits einmal Schiffbruch erlitten hatten, wählten sie weise den Bergpfad. Wie ich später von Blobby erfuhr (der kleine Schlingel beobachtet alles!), wurde ihre Reise durch die Berge zu einem wahren Wintermärchen - nur ohne die Gemütlichkeit.
 
-Then a portal starts to work again and tehy get back to the dwarf city.
+**Die Bergbesteigung:**
+Der Schnee fiel dichter, als sie höher kletterten. An einer schmalen Brücke griffen Greifen an! Zum Glück schafften es meine Freunde, ohne zu kämpfen hindurchzukommen - Lamils Diplomatie ist wirklich bewundernswert.
 
-In the city, Serox manages to forge the first part of his legendary armor. it has multiple slots. With the powerstone he got from the fire elemenatl he is now resistant to fire with his armor..
+Sie fanden eine große Höhle mit merkwürdigen gefrorenen Statuen. Klug, wie sie sind, versteckten sie sich in einem Seitengang - just rechtzeitig! Ein weißer Drache erschien, aber sie blieben unentdeckt. 
 
-In the afterparty, they receive a a box with letter and blobby (the familiar of Milo) (siehe Brief).:
-That talks about that Milo is basically a prisoner,(despite cool research)
-The party decided to rescue him and head of to baldurs Gate.
-They thank the dwarfes and descend the mounain on the other site.
+**Das Zwergenvolk:**
+Am nächsten Tag, nach einem Kampf mit Frostwölfen, trafen sie auf eine Zwergenpatrouille. Diese freundlichen Bergbewohner luden sie in ihre Stadt ein - eine Stadt, die seltsamerweise immer heißer wurde!
 
+**Die Feuerprüfung:**
+In der Zwergenstadt halfen meine Freunde bei verschiedenen Aufgaben (Schmieden, Bergbau - Dinge, die ich gerne miterlebt hätte!). Dann erhielten sie eine wichtige Mission: herauszufinden, warum es immer heißer wurde.
 
-Down there, they ffind themselves in a dying forest. they eventually spot a forest guardian that gets attacked by goons of vampires (daywalkers)
+Sie fuhren mit alten Minenkarren (so aufregend!) tiefer in den Berg und entdeckten einen uralten Tempel mit einem Lavasee. Dort trafen sie einen gefangenen Feuergott, der ihnen von einem Magma-Elemental erzählte, das seine Macht gestohlen hatte.
 
-They manage to fight them off and resuce the forest guardian and lamil helps him to recover the forest.
-In the forest they also meet a hunter, which originais unkknown. But he has a daughter and gives a letter for her to lamil.
+**Lufniks Unglück:**
+Hier geschah etwas Schreckliches. Lufnik versuchte einen seiner berühmten Saltos über eine Brücke und... fiel in die Lava! Nur durch schnelles Handeln der anderen überlebte er knapp. Seitdem hat er Angst vor Feuer und Lava - das macht mich sehr traurig für meinen akrobatischen Freund.
 
+**Der große Kampf:**
+Sie unterbrachen ein Machttransfer-Ritual und beschwörten dadurch das riesige Magma-Elemental herauf! Der Kampf war verzweifelt - sie konnten nur auf einer kleinen Insel im Lavasee überleben, bis der Feuergott ihnen zu Hilfe kam.
 
-Afterwards, they managed to find the mainroad and a travelling merchant where they travel with.
-While travelling, they passed by a trolll, that chased them until lamil was able to root him down with a spell.
+**Zurück in der Stadt:**
+Serox schaffte es, das erste Stück seiner legendären Rüstung zu schmieden! Mit dem Kraftstein des Elementals wurde er feuerresistent. In der Nachfeier erhielten sie eine Kiste mit meinem Brief und - oh Freude! - Blobby kam zu ihnen!
 
+Mein Brief warnte sie, dass ich in Schwierigkeiten steckte (was eine Untertreibung war). So beschlossen sie, mich zu retten und machten sich nach Baldur's Gate auf.
 
-The continue until Baldurs Gate, where they got problems enter the city, as in recent weeks more and more people arrive in Baldurs Gate from Elthurel.
+---
 
-They eventually get in due connections frfom Lamill in the Azure Enclave.
+## 02 - Baldur's Gate: Politik, Intrigen und eine Rettungsmission
+*Tag 68-134*
 
-Depsite that, Kalmaris and Longjohn have to go around, as they are known as pirates and find a fisherboat in which they can go around.
-The two pirates then go drinking and eventually manage to find the party again in the Elvesong Tavern.
+**Der Abstieg:**
+Meine Freunde verließen die Berge auf der anderen Seite und fanden sich in einem sterbenden Wald wieder. Sie retteten einen Waldwächter vor Vampirhäschern (Tagesläufern) und Lamil half dabei, den Wald zu heilen. Sie trafen auch einen mysteriösen Jäger, der Lamil einen Brief für seine Tochter gab.
 
+**Die Reise:**
+Sie schlossen sich einem Handelskarawanenführer an und wurden von einem Troll gejagt, bis Lamil ihn mit Zauberwerk fesselte. Als sie Baldur's Gate erreichten, hatten sie Probleme beim Stadteingang - so viele Flüchtlinge aus Elturel kamen an!
 
-In the under City, they try to look for Milo but fidn nothing but they get more infos about RR.
-They eventually sneak into the uppper city and get a Permanent Pass by the Azure Enclave again.
+**Stadtpolitik:**
+Dank Lamils Verbindungen zur Azure-Enklave erhielten sie schließlich Einlass. Kalmaris und Longjohn mussten allerdings umherschleichen, da sie beide als Piraten bekannt waren. Die zwei Seeräuber fanden sich später in der Elfenlied-Taverne wieder (bei viel Alkohol, wie ich vermute - typisch für Piraten!).
 
+**Die Fraktionen meiner Stadt:**
+- **Eiserner Zirkel:** Söldnergilde - sie mochten meine Freunde nicht besonders
+- **Azure-Enklave:** Sehr hilfsreich dank Lamil
+- **RR-Gilde:** Verschlossen und geheimniskrämerisch
+- **Arkanum-Turm:** Informationsquelle - Lufnik wollte beitreten, vergaß aber seinen Aufnahmetest!
+- **Mechaniker-Kollektiv:** Meine Gilde! Sie wussten nicht, was mit mir geschehen war, aber erzählten von einer RR-Auktion
 
-while around the city, they find multipe faction and imnportant buildings.
+**Die Arena:**
+Meine tapferen Freunde kämpften in einer Untergrund-Arena und gewannen knapp - aber sie verdienten gutes Geld!
 
-Iron Circle: Mercenary Guilde, they constantly come into fights with them, tehy dont really like each other
+**Die große Auktion:**
+Sie gelangten zur RR-Auktion (siehe Auktionsdatei). Kalmaris erhielt sogar eine Einladung in den Bronze-Bereich, nachdem er "Flüssiges Sonnenlicht" gekauft hatte. Er entdeckte Verbindungen zu Strahd und den Vampiren aus dem Wald - wie faszinierend und beunruhigend!
 
-Azure Enclave: Helpful and provide the party with shelter and support (thanks to lamil)
+Am Ende der Auktion versuchte eine Organisation, den letzten Gegenstand zu stehlen (angeblich für einen Wunschzauber). Im Kampf starben Kaelin Sturmreiter von der Azure-Enklave und Garrick der Scharfschütze vom Eisernen Zirkel. Sehr traurig.
 
-RR: Mostly closed off. the party doesnt get to close with them
+**Die Rettung vorbereiten:**
+Während die RR-Gilde den Helden für ihre Hilfe dankte und ihnen verrieten, wo ich war, machten meine Freunde Nebenquests bei der Abenteurergilde. Kalmaris wurde verflucht! Ein seltsamer Doktor identifizierte es als Spiegeldämon und versiegelte ihn - allerdings verlor Kalmaris dabei seine Piratenidentität.
 
-Arcanum Tower: A nice source of information. Lufnik wants to join and makeks an appojjntment for a test he forgot to attend
+**Die Befreiung:**
+Sie täuschten vor, die RR-Gilde würde Bürger angreifen. Serox wurde bewusstlos vor der Kathedrale gefunden, während der arme Longjohn am Pranger auf dem Marktplatz stand - eine wenig würdige Position für einen stolzen Piraten! Dort traf er Peeblewitz Steinguckern, einen Touristen und Versicherungsvertreter, der ihnen vorübergehend half.
 
-Clockwork Collective: the guild of Milo. They also dont know what happend to him. but theys tell the party about a big auction of the RR. If the y protect their special gear, they promise to get them into the auction
+Schließlich führten sie eine "Mission Impossible" durch und schlichen in den RR-Bereich. In einem versteckten unterirdischen Labor fanden sie mich - oder was sie für mich hielten - mit einer riesigen, hässlichen Version von Blobby vor einem großen Energiekristall stehend.
 
+**Der Kampf um die Wahrheit:**
+"Ich" verhielt mich seltsam, und es kam zum Kampf. Der "Blobulus" hatte einen besonderen Angriff mit völlig zufälligen und merkwürdigen Effekten! Glücklicherweise half der echte Blobby dabei, diese zu neutralisieren. Sie zerstörten den Kristall und stellten fest, dass "ich" ein Doppelgänger war. Den echten Milo (also mich!) fanden sie in der Nähe und schmuggelten mich heraus.
 
-The party also goes into an underground arena, in which they barely win. They won quite some money though
+Aus Angst vor RR-Vergeltung verließen wir alle schnell die Stadt.
 
+---
 
+## 03 - Avernus: Wo Städte verschwinden
+*Tag 135-heute*
 
+**Der Weg nach Elturel:**
+Nach unserem Aufbruch aus Baldur's Gate wollten wir nach Elturel. Auf halber Strecke trafen wir Flüchtlinge, die von verschwundenen Menschen in Elturel berichteten. Lamil hatte ein ungutes Gefühl, also campten wir in der Mitte des Weges.
 
-They then get into the auction (check out the auction file).
+**Die Nacht des Verschwindens:**
+Laute Geräusche und magische Wellen weckten uns - Elturel war verschwunden! An seiner Stelle fanden wir nur einen gewaltigen Krater. Ein untotes Reittier jagte uns, aber wir besiegten es nach einem harten Kampf.
 
-Kalmaris gets an invite to the bronze area due him buying the Flüssiges Sonnenlicht. Afterwards he figures out, that they belong to stratth and possible  are related to the vampire goons in the forest. Despite that thea leave each other on friendly terms (and made some good money)
+Danach begegneten wir Captain Zodge...
 
-At the end of the auction, some orignisation tries to steal the the last item, thats supposed to be ablel to make a wish spell. They manage to fend it off but in the situation and the dark area Kaelin Sturmreiter from azreu enclave and **Garrick der Scharfschütze**  for the iron circlle dies.
+*Das Abenteuer geht weiter, und ich schreibe täglich in dieses Logbuch. Was für aufregende Zeiten!*
 
+---
 
-For the rescue, the RR thanks them and with the conversation they find out where milo is.
+*Mit tintenbefleckten Fingern und einem Herzen voller Dankbarkeit für meine wunderbaren Gefährten,*
 
-
-As the preparations take a while, the party does some sidequest with the adventure guilde and climb the ranks. Kalmaris also gets cursed but they managed to fend it of by visitng a weird Dr. that identifes his curse as a mirror demon and seals him off by exchange of loosing his pirate identity.
-
-
-Back in baldurs Gate, they frame the RR Guild of attacking cititzen and Serox is found unconcious on a street in the cathedral.
-Longjohn is found on the market on a pillory on the market place.
-He then meets Peeblewitz Steinguckerm, a tourist and versicherungsvertreter. He eventually helps him out and joins the party for a bit until he disspears at  sosme point (probably found something interesting)
-
-Eventually they do a mission impossible and sneak into the RR area and find a hidden underground spot.
-
-
-They get underneath and find a laboratory where milo and a Huge ugly version of Blobby stand around a big energy crystal.
-
-Milo doesnt act right and it comes to a fight.
-
-The Blobulus has a special attack that gives very random and weirtd effects to the party.
-Eventually, bloby helps them by negating it. They then destroy the crystal and knock out milo. They figure ot its actually not milo but a doppelganger.
-Milo is nearby though and the ymanage to smuggle him out.
-
-
-They then leave the city, in fear of the RR retaliating.
-
-
-# 03 Avernus
-
-
-After leaving Baldurs Gate, they head to Elthurel.
-Halfway, they meet people basically fleeing from  Elthurel becuase people start to go missing.
-Because of that an an uneasy feeling of lamil, the Decided to camp halfway
-
-During the night, Loud noises and magival waves wakes them up and Elthurela seems to have dissapeard. 
-They decide to inspect that and fidn a huge crater. Whils taying they, an undead rider climbs the area and chases them of.
-The undead rider evntually cahces up but they manage to defeat it. 
-After the battlle they get approached by  Captain Zodge
-
-
-
-
-
+**Milo Quickspark**  
+*Alchemist, Forscher und glücklicher Überlebender*

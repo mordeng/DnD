@@ -33,6 +33,122 @@ Pherria Jynks, die Akolythin und Expertin für Besessenheit, untersucht Ravengar
 
 **Pherrias Diagnose:** "Die dämonische Essenz ist mit Torms Gegenwart durch den Helm verwoben. Ein einfacher Zauber kann diese Verbindung nicht brechen - aber ein aufwendigeres Ritual könnte Ravengard befreien und das Portal schließen, indem es Torms Macht erlaubt, diesen Bereich wieder zu weihen."
 
+## TIAMAT ERSCHEINT IN MENSCHLICHER GESTALT - Der falsche Berater
+
+Während die Charaktere die Ritualvorbereitung diskutieren, tritt eine unerwartete Figur in die Kathedrale:
+
+> Die schweren Eisentüren der Kathedrale öffnen sich ohne einen Laut. Eine **elegante Frau** schreitet herein, ihre Bewegungen fließend wie Seide. Sie ist groß und regelhaft schön, mit dunklen Haaren, die in fünf komplizierte Zöpfe geflochten sind - jeder in einer anderen Farbe: schwarz, rot, blau, grün und weiß.
+> 
+> Ihre Kleidung ist kostbar aber praktisch, wie die einer vornehmen Beraterin oder Diplomatin. Sie trägt fünf verschiedene Ringe, jeden in einer anderen Metalllegierung. Ihre Augen scheinen je nach Licht die Farbe zu wechseln. Wenn sie spricht, ist ihre Stimme melodisch, beruhigend - die Stimme von jemandem, dem man vertrauen möchte.
+> 
+> "Vergebt die Störung," sagt sie mit einer anmutigen Verbeugung. "Ich bin **Lady Fierna**, Beraterin für... interdimensionale Angelegenheiten. Ich bin gekommen, um in dieser schweren Stunde zu helfen."
+
+### Tiamats Täuschung - Lady Fierna
+
+**Ihr angeblicher Hintergrund:**
+- Behauptet, eine "neutrale Vermittlerin" zu sein, die zwischen den Ebenen reist
+- "Spezialisiert auf die Rettung von Städten, die in dimensionale Krisen geraten sind"
+- Behauptet, schon mehrere ähnliche Situationen gelöst zu haben
+- Wirkt kompetent, hilfsbereit und vertrauenswürdig
+
+**Ihre angebliche Mission:**
+"Ich habe gespürt, dass Elturel in Gefahr ist, und bin gekommen, um meine Expertise anzubieten. Das Ritual, das ihr plant, ist... riskant. Ich kenne sicherere Wege."
+
+### Charakterspezifische Reaktionen auf "Lady Fierna"
+
+**Kalmaris:**
+- **Gargauth schweigt völlig** - zum ersten Mal seit seiner Ankunft in Avernus
+- Alle Spiegel um Kalmaris werden plötzlich vollkommen still und reflektieren nur noch Kalmaris' Gesicht
+- **Falls nachgefragt:** Gargauth antwortet nervös: *"Ich... kenne sie nicht. Das ist... seltsam."*
+
+**Lamil:**
+- Seine Wildfire-Flamme **flackert misstrauisch** - spürt etwas Unnatürliches
+- **Naturempfinden:** SG 15 Weisheit (Naturkunde) - bei Erfolg spürt er, dass sie kein humanoides Wesen ist
+- Seine Druidenintuition warnt ihn: "Das ist kein Mensch... aber was dann?"
+
+**Lufnik:**
+- Die **Schatten um "Lady Fierna"** verhalten sich völlig falsch - sie fallen in fünf verschiedene Richtungen gleichzeitig
+- **Erste deutliche Flüster des verstoßenen Mondgottes:** *"Fünf Geister in einem Körper... interessant. Vielleicht können wir etwas von ihr lernen..."*
+
+**Longjohn:**
+- Seine **Seefahrer-Instinkte** schlagen Alarm - SG 12 Weisheit (Einschätzung) verrät ihm, dass ihre Geschichte nicht stimmt
+- "Ich habe viele Geschichtenerzähler in Hafentavernen gehört. Die hier lügt wie gedruckt."
+
+**Serox:**
+- Seine **Schmiedehände kribbeln intensiv** bei ihrer Nähe - spürt die macht der fünf Metalle in ihren Ringen
+- **Handwerker-Instinkt:** SG 10 Intelligenz (Arkane Kunde) verrät ihm, dass ihre Ringe aus Materialien gefertigt sind, die auf der Materiellen Ebene nicht existieren
+
+### Pherrias Reaktion
+
+**Die erfahrene Akolythin ist misstrauisch:**
+- "Lady... Fierna? Ich kenne diesen Namen nicht aus den diplomatischen Aufzeichnungen von Elturel."
+- **SG 13 Weisheit (Einschätzung)** - bei Erfolg spürt sie dämonische/drachische Energien
+- "Eure Aura ist... ungewöhnlich für eine Menschenfrau."
+
+### Tiamats "Hilfsangebote"
+
+**Für das Ravengard-Ritual:**
+"Das Ritual ist zu gefährlich. Ich kenne einen... eleganteren Ansatz. Mit meiner Hilfe könntet ihr Ravengard befreien, ohne euch der Gefahr göttlicher Energien auszusetzen."
+
+**Charakterspezifische Angebote:**
+
+**An Serox:** "Zwergenschmied, eure Ringe sind beeindruckend, aber ich trage Metalle, die selbst Meister eures Volkes nie gesehen haben. Vielleicht könnten wir... Wissen austauschen?"
+
+**An Longjohn:** "Ich spüre euer Leiden um einen verlorenen Gefährten. In meinen Reisen zwischen den Ebenen habe ich viele verschollene Seelen getroffen. Vielleicht könnte ich helfen..."
+
+**An Lamil:** "Die Korrumpierung der Natur hier schmerzt auch mich. Ich kenne Wege, Avernus zu... renaturieren. Aber es erfordert Macht - mehr Macht, als ein einzelner Druide aufbringen kann."
+
+**An Lufnik:** "Eure Mondmagie ist hier schwach, nicht wahr? Es gibt... andere Lichtquellen. Ältere. Mächtigere."
+
+**An Kalmaris:** (interessanterweise erwähnt sie Gargauth NICHT direkt) "Ihr tragt eine schwere Bürde, das spüre ich. Manchmal ist es besser, eine Bürde... zu teilen."
+
+### Blobby's Warnung
+
+**Milos panische Übertragung:** *"Blobby zittert heftig und übersetzt: IRGENDETWAS STIMMT NICHT! Die magischen Muster um diese Frau sind... unmöglich! Fünf verschiedene Auren gleichzeitig!"*
+
+**Lulus verzweifelte Botschaft:** *"Die Elefanten-Dame schreit in Blobbys Kopf! Sie sagt... sie sagt... 'Fünf Köpfe, ein Körper! Fünf Köpfe, ein Körper! DIE KÖNIGIN KOMMT!'"*
+
+### Tiamats wahre Agenda
+
+**Was sie wirklich will:**
+1. **Das Ravengard-Ritual sabotieren** - sie braucht das dämonische Portal offen zu halten
+2. **Die Charaktere korrumpieren** - jeder könnte ein nützlicher Diener werden
+3. **Zugang zum Companion** - das göttliche Gerät ist der Schlüssel zu ihrer Befreiung
+4. **Informationen sammeln** - über die Charaktere und ihre Schwächen
+
+**Ihre Strategie:**
+- Nützlich und hilfreich erscheinen
+- Subtile Zweifel an der Richtigkeit des Rituals säen
+- Jeden Charakter mit verlockenden Angeboten ködern
+- Ihre wahre Identität so lange wie möglich verbergen
+
+### Mögliche Entlarvungsszenarien
+
+**Wenn die Charaktere zu misstrauisch werden:**
+- Ihre Augen blitzen kurz in fünf verschiedenen Farben
+- Ihre Stimme klingt für einen Moment wie fünf verschiedene Stimmen im Chor
+- Die Temperatur im Raum steigt merklich an
+
+**Wenn sie direkt konfrontiert wird:**
+- Lächelt kalt: "Ihr seid klüger, als ich dachte."
+- Verwandelt sich langsam zurück: "Dann sprechen wir eben... direkter."
+
+**Wenn das Ritual trotz ihrer Einwände beginnt:**
+- Versucht, es zu unterbrechen oder zu sabotieren
+- Offenbart ihre wahre Natur, um das Ritual zu stoppen
+
+### Spielerische Folgen
+
+**Kurzzeitig:**
+- Schafft Verwirrung und Misstrauen
+- Zwingt die Charaktere, ihre Instinkte zu vertrauen
+- Etabliert Tiamat als listige Manipulatorin, nicht nur als rohe Gewalt
+
+**Längerfristig:**
+- Ihre Angebote werden die Charaktere durch die ganze Kampagne verfolgen
+- Sie weiß jetzt mehr über ihre Schwächen und Wünsche
+- Wird in Zukunft gezielteren Manipulationsversuchen unterliegen
+
 ### Ritualvorbereitung
 
 **Was benötigt wird:**

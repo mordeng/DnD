@@ -8,6 +8,75 @@ Ein Dimensionssprung-Zauber teleportiert Traxigor den Zauberer und bis zu acht a
 
 Traxigor blickt nervös zur schwarzen Kugel hinauf, murmelt einige arkane Silben und verschwindet im Augenblick. Er wirkt Zeitstopp und gibt sich Zeit zur Flucht mit seinem Flugzauber. Er ist längst verschwunden, bevor der Zeitstopp endet und die Charaktere reagieren können.
 
+## TIAMAT ERSCHEINT - Die Drachenjagd über Elturel
+
+Kurz nachdem Traxigor verschwunden ist, lies das Folgende vor:
+
+> Ein Schatten verdunkelt den bereits düsteren Himmel. Das donnernde Geräusch massiver Flügel übertönt selbst die Blitze des Companion. Hoch über der Stadt erscheint eine Gestalt, die zu groß ist, um wahr zu sein - **fünf gigantische Drachenköpfe an einem schlangenartigen Körper, jeder so groß wie ein Gebäude**. Tiamat, die Drachengöttin selbst, kreist über Elturel wie ein Raubvogel über seiner Beute.
+> 
+> Ihre chromatic Schuppen - rot, blau, grün, schwarz und weiß - reflektieren das höllische Licht des Companion. Alle fünf Köpfe scannen die Stadt methodisch, suchend, jagend. Ihr Atem erzeugt abwechselnd Feuer, Eis, Säure, Blitze und Giftgas, die verschiedene Stadtteile verwüsten.
+> 
+> Dies ist kein Gegner, den ihr bekämpfen könnt. Dies ist eine Naturgewalt, vor der ihr euch nur verstecken könnt.
+
+### Sofortige Reaktion erforderlich: VERSTECKEN!
+
+Die Charaktere müssen **sofort Deckung suchen**. Jeder Charakter muss einen **SG 15 Geschicklichkeits (Verbergen) Wurf** machen:
+
+**Bei Erfolg:** Der Charakter findet schnell Deckung unter Trümmern, in einem teilweise eingestürzten Gebäude, oder hinter dicken Mauern.
+
+**Bei Fehlschlag:** Tiamats Aufmerksamkeit wird kurz auf den Charakter gelenkt. Sie kreist näher und einer ihrer Köpfe starrt direkt auf die Position des Charakters. Der Charakter muss einen **SG 13 Weisheits-Rettungswurf** machen oder ist für 1 Minute **verängstigt**.
+
+### Charakterspezifische Reaktionen während des Versteckens
+
+**Kalmaris:**
+- Gargauth **schreit** in allen reflektierenden Oberflächen: *"VERSTECKEN! SIE JAGT! Selbst ich wage es nicht, ihre Aufmerksamkeit zu erregen!"*
+- Alle Spiegel und Fenster um Kalmaris springen gleichzeitig, aber lautlos
+
+**Lamil:**
+- Seine Wildfire-Flamme **reagiert unkontrolliert** auf Tiamats Präsenz
+- Er muss einen **SG 12 Konzentrations-Rettungswurf** machen, sonst flackern kleine Flammen um ihn auf und verraten möglicherweise seine Position
+- **Bei Fehlschlag:** Wiederhole den Verstecken-Wurf mit Nachteil
+
+**Lufnik:**
+- Die Schatten um ihn herum **verhalten sich völlig chaotisch** - sie zeigen in alle Richtungen gleichzeitig
+- **Erste Flüster:** Eine fremde Stimme in seinem Kopf: *"Sie ist mächtiger als der Mond, Kind. Vielleicht solltest du eine mächtigere Gottheit wählen..."*
+
+**Longjohn:**
+- Aus Tiamats vielstimmigem Gebrüll hört er für einen Moment etwas, das wie **Blackys Schrei** klingt
+- Er muss einen **SG 10 Weisheits-Rettungswurf** machen oder versucht instinktiv, aus der Deckung zu kommen
+- **Bei Fehlschlag:** Wiederhole den Verstecken-Wurf
+
+**Serox:**
+- Seine Schmiedehände **zittern vor Ehrfurcht** - ihre Schuppen sind das schönste Material, das er je gesehen hat
+- **Obsessive Gedanken:** "Mit auch nur einer einzigen Schuppe könnte ich die perfekteste Rüstung aller Zeiten schmieden..."
+- Er hat **Vorteil** auf seinen Verstecken-Wurf, da seine Handwerker-Instinkte ihm sagen, wann er stillhalten muss
+
+### Tiamats Jagdverhalten
+
+**1-2 Runden:** Tiamat kreist über der Stadt und verwüstet verschiedene Bereiche mit ihren Atemwaffen. Die Charaktere hören:
+- Das Krachen von Gebäuden, die von ihren Klauen zerstört werden
+- Die verschiedenen Atemwaffen, die unterschiedliche Stadtteile treffen
+- Ihr vielstimmiges Brüllen in Drakonic: *"Versteckt euch, kleine Sterbliche. Ich werde euch bald persönlich besuchen..."*
+
+**3. Runde:** Sie landet kurz auf der High Hall in der Ferne, ihre fünf Köpfe scannen die Stadt ein letztes Mal, dann verschwindet sie wieder in den roten Wolken von Avernus.
+
+### Blobby übermittelt während der Jagd
+
+**Milos panische Stimme:** *"Blobby zittert und übersetzt: DAS IST TIAMAT! Die Drachengöttin höchstpersönlich! Meister Milo screams - VERSTECKT EUCH UND BEWEGT EUCH NICHT!"*
+
+**Lulus verzweifelte Botschaft:** *"Die Elefanten-Dame sendet pure Angst! Sie erinnert sich an Tiamats Macht! Sie sagt: 'Ihre Ketten sind schwächer geworden... sie kann sich weiter bewegen als zuvor!'"*
+
+### Nach Tiamats Verschwinden
+
+Sobald Tiamat verschwunden ist, können die Charaktere ihre Verstecke verlassen. Die Stadt ist nun mit **zusätzlichen Schäden** übersät:
+- Neue Feuersbrünste (Rote Atemwaffe)
+- Vereiste Gebäude, die bei Berührung zerbrechen (Weiße Atemwaffe)  
+- Ätzende Säurelöcher im Boden (Schwarze Atemwaffe)
+- Blitzverkohlte Ruinen (Blaue Atemwaffe)
+- Giftgaswolken in niedrigen Bereichen (Grüne Atemwaffe)
+
+**Wichtige Erkenntnis:** Die Teufel verstecken sich ebenfalls. Selbst Bartheufel und andere infernale Kreaturen suchen Deckung, wenn Tiamat erscheint. Das zeigt den Charakteren, wie mächtig sie wirklich ist.
+
 ## Erste Kontakte über Blobby
 
 **Milos Stimme durch Blobby:** "Blobby übersetzt: Meister Milo sagt... ihr habt es geschafft! Aber die Stadt... sie ist schrecklich verändert!"

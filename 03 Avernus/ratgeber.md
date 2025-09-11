@@ -45,7 +45,7 @@ Andere Gottheiten und Halbgottheiten schauen gelegentlich vorbei, um entweder:
 ###  Wichtige „Gottheiten“ & Mächte 
 - **Asmodeus** – Oberteufel, Gott des Vertragswesens, Spezialgebiet: _Kleingedrucktes, das Sie nie lesen._
 - **Zariel** – Erzherzogin von Avernus, ehemalige Engelheldin. Heute: Spezialistin für Aggressionsmanagement per Schwert.
-- **Tiamat** – Die fünfköpfige Drachengöttin sitzt ebenfalls irgendwo in Avernus fest. Offiziell „unter Arrest“. Praktisch bedeutet das: Niemand hat den Mut, sie rauszuwerfen.
+- **Tiamat** – Die fünfköpfige Drachengöttin sitzt ebenfalls irgendwo in Avernus fest. Offiziell „unter Arrest“. Wahrscheinlich bedeutet das: Niemand hat den Mut, sie rauszuwerfen.
 - **Lokale Halbgötter & Kultführer** – Eine wechselnde Liste von Größen, die entweder „bald ganz groß rauskommen“ oder schon wieder „sehr klein hineingehen“ (in Gräber, Seelenstrudel, Schlunddämonen…).
 
 ---

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milos Glut der Opferung - Item Sheet</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Crimson Text', serif;
+            background: linear-gradient(135deg, #f4e4bc 0%, #e8d5a3 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .item-sheet {
+            width: 800px;
+            max-width: 95vw;
+            background: linear-gradient(135deg, #f9f1e6 0%, #f0e6d2 100%);
+            border: 3px solid #8b4513;
+            border-radius: 15px;
+            box-shadow: 
+                0 0 30px rgba(139, 69, 19, 0.3),
+                inset 0 0 50px rgba(139, 69, 19, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .item-sheet::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 20%, rgba(139, 69, 19, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(139, 69, 19, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #d2691e 0%, #ff6347 100%);
+            color: #f9f1e6;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .item-name {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5em;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 5px;
+        }
+        
+        .item-type {
+            font-size: 1.2em;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+        
+        .rarity-badge {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: #8B0000;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-family: 'Cinzel', serif;
+            font-weight: 600;
+            font-size: 0.9em;
+            box-shadow: 0 2px 10px rgba(139, 0, 0, 0.5);
+        }
+        
+        .content {
+            padding: 30px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .item-image-container {
+            float: right;
+            margin: 0 0 20px 30px;
+            width: 300px;
+            height: 300px;
+            border: 3px solid #8b4513;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(139, 69, 19, 0.3);
+        }
+        
+        .item-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            text-align: justify;
+            color: #2c1810;
+        }
+        
+        .abilities {
+            background: rgba(210, 105, 30, 0.1);
+            border: 2px solid #d2691e;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .abilities-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #d2691e;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .ability {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            border-left: 4px solid #ff6347;
+        }
+        
+        .ability-name {
+            font-weight: 600;
+            color: #d2691e;
+            margin-bottom: 5px;
+        }
+        
+        .enhancement-section {
+            background: rgba(139, 0, 0, 0.1);
+            border: 2px solid #8B0000;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .enhancement-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #8B0000;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .enhancement {
+            margin-bottom: 15px;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 5px;
+            border-left: 4px solid #8B0000;
+        }
+        
+        .enhancement-name {
+            font-weight: 600;
+            color: #8B0000;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        
+        .enhancement ul {
+            margin: 5px 0 5px 20px;
+        }
+        
+        .quote {
+            background: rgba(212, 175, 55, 0.2);
+            border: 2px solid #d4af37;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+            font-style: italic;
+            font-size: 1.05em;
+            line-height: 1.5;
+            position: relative;
+        }
+        
+        .quote::before {
+            content: '"';
+            font-size: 4em;
+            color: #d4af37;
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            font-family: 'Cinzel', serif;
+        }
+        
+        .quote::after {
+            content: '"';
+            font-size: 4em;
+            color: #d4af37;
+            position: absolute;
+            bottom: -40px;
+            right: 10px;
+            font-family: 'Cinzel', serif;
+        }
+        
+        .quote-text {
+            margin: 10px 20px;
+            color: #2c1810;
+        }
+        
+        .decorative-border {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border: 1px solid rgba(139, 69, 19, 0.3);
+            border-radius: 10px;
+            pointer-events: none;
+        }
+        
+        @media (max-width: 768px) {
+            .item-sheet {
+                width: 100%;
+                margin: 10px;
+            }
+            
+            .item-image-container {
+                float: none;
+                margin: 0 auto 20px auto;
+                width: 250px;
+                height: 250px;
+            }
+            
+            .item-name {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="item-sheet">
+        <div class="decorative-border"></div>
+        
+        <div class="header">
+            <div class="rarity-badge">Einzigartig</div>
+            <h1 class="item-name">Milos Glut der Opferung</h1>
+            <div class="item-type">Wundersamer Gegenstand (erfordert Einstimmung durch einen Druiden)</div>
+        </div>
+        
+        <div class="content">
+            <div class="item-image-container">
+                <img src="stone.png" alt="Milos Glut der Opferung" class="item-image">
+            </div>
+            
+            <div class="description">
+                Diese kleine, immer warme Glut wurde von Milo Quickspark mit alchemistischen Techniken erschaffen und pulsiert mit reinigendem Wildfire-Energie. Die Glut ist etwa so groß wie eine Walnuss und leuchtet mit sanftem, goldenen Licht.
+            </div>
+            
+            <div class="abilities">
+                <div class="abilities-title">Grundeigenschaften</div>
+                
+                <div class="ability">
+                    <div class="ability-name">Korruptions-Detektor</div>
+                    <div>Die Glut pulsiert heller und wird wärmer, wenn sich korrumpierte Magie (besonders Schatten- oder Dunkelmagie) innerhalb von 150m befindet. Je stärker die Korruption, desto heller das Pulsieren.</div>
+                </div>
+                
+                <div class="ability">
+                    <div class="ability-name">Magie Entdecken (1x täglich)</div>
+                    <div>Du kannst die Glut verwenden, um den Zauber <em>Detect Magic</em> zu wirken. Der Zauber hat erweiterte Reichweite und ist besonders empfindlich für korrumpierte oder verdorbene Naturmagie.</div>
+                </div>
+                
+                <div class="ability">
+                    <div class="ability-name">Reinigungsaura (1x wöchentlich)</div>
+                    <div>Aktiviere die Glut, um einen Bereich von 5m Radius um dich herum von geringer magischer Korruption zu reinigen. Entfernt schwache Flüche auf dem Land, reinigt vergiftetes Wasser und stellt die natürliche Balance wieder her.</div>
+                </div>
+            </div>
+            
+            <div class="enhancement-section">
+                <div class="enhancement-title">Verstärkte Reinigung durch Opfer</div>
+                
+                <div class="enhancement">
+                    <div class="enhancement-name">Geringe Verstärkung</div>
+                    <div><strong>Opfer:</strong> Zauberplatz der 3. Stufe oder höher</div>
+                    <ul>
+                        <li>Radius erhöht sich auf 10m</li>
+                        <li>Kann mittlere Korruption reinigen</li>
+                        <li>Entfernt mäßig starke Flüche und heilt beschädigte Ökosysteme</li>
+                    </ul>
+                </div>
+                
+                <div class="enhancement">
+                    <div class="enhancement-name">Große Verstärkung</div>
+                    <div><strong>Opfer:</strong> 10 Trefferpunkte (permanent bis zur nächsten langen Rast)</div>
+                    <ul>
+                        <li>Radius erhöht sich auf 20m</li>
+                        <li>Kann schwere Korruption reinigen</li>
+                        <li>Neutralisiert starke nekromantische Auren und heilt schwer beschädigte Naturgebiete</li>
+                    </ul>
+                </div>
+                
+                <div class="enhancement">
+                    <div class="enhancement-name">Ultimative Reinigung</div>
+                    <div><strong>Opfer:</strong> 1 permanenter Konstitutionspunkt (1x pro Monat)</div>
+                    <ul>
+                        <li>Radius erhöht sich auf 30m</li>
+                        <li>Reinigt selbst mächtige Korruption vollständig</li>
+                        <li>Das gereinigte Gebiet wird für 1 Jahr gegen zukünftige Dunkelmagie gesegnet</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="abilities">
+                <div class="abilities-title">Besondere Eigenschaft</div>
+                <div class="ability">
+                    <div class="ability-name">Wachsende Hingabe</div>
+                    <div>Mit jedem Opfer wird die Glut dauerhaft heller und wärmer. Nach der ersten großen Verstärkung beginnt sie zu flackern wie eine kleine Flamme, nach der ersten ultimativen Reinigung brennt sie konstant wie eine winzige Fackel.</div>
+                </div>
+            </div>
+            
+            <div class="quote">
+                <div class="quote-text">
+                    Deine Verbindung zum reinigenden Feuer hat mich dazu inspiriert, das hier zu erschaffen. Es wird dir helfen, Korruption zu reinigen, obwohl größere Reinigung größere Opfer erfordert.
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

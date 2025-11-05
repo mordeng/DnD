@@ -123,41 +123,42 @@ Oder, wie ein lokaler Höllenführer es formulierte:
 
 
 
+
 ---
 ## 📑 **Anhang A: Häufig gestellte Fragen von Überlebenden Touristen***
 
-* _„Überlebend“ meint in diesem Kontext: mindestens ein Bein noch dran, mehr als die Hälfte der Erinnerungen vorhanden, und die Fähigkeit, einen Satz ohne hysterisches Lachen zu beenden._
+> „Überlebend“ meint in diesem Kontext: mindestens ein Bein noch dran, mehr als die Hälfte der Erinnerungen vorhanden, und die Fähigkeit, einen Satz ohne hysterisches Lachen zu beenden.
 
-	###  „Kann man in Avernus Urlaub machen?“
-	
-	**Antwort:** Ja. Man kann auch freiwillig in einen Bienenstock greifen. Beides endet mit Schreien, Stichen und einer völlig neuen Perspektive auf das Leben.
-	
-	
-	###  „Wie lange dauert die Reise?“
-	
-	**Antwort:** Zeit ist in Avernus… flexibel. Manche Besucher behaupten, sie seien nach drei Tagen zurückgekehrt. Andere meinen, sie seien schon seit Jahrhunderten hier. Eine dritte Gruppe antwortet gar nicht – aus offensichtlichen Gründen.
-	
-	
-	###  „Sind die Einheimischen freundlich?“
-	
-	**Antwort:** „Freundlich“ im Sinne von: Sie reden zuerst, bevor sie versuchen, Sie zu verspeisen. Viele andere Höllenebenen beneiden Avernus geradezu um diesen **fortschrittlichen diplomatischen Ansatz**.
-	
-	
-	###  „Was sollte man unbedingt mitbringen?“
-	
-	- Feuerfeste Unterwäsche (für den Fall der Fälle)
-	- Ein Ersatzgedächtnis (der Styx liebt Andenken)
-	- Viel Humor (hält länger als jede Rüstung)
-	- Einen Reisebegleiter, der schneller laufen kann als Sie**
-	
-	** _Dies ist kein Witz. Wirklich nicht._
-	
-	
-	### „Wie verlässt man Avernus wieder?“
-	
-	**Antwort:** Ah, die **häufigste** und zugleich **unbeantwortbare** Frage. Manche schaffen es durch Portale, andere durch göttliche Intervention, wieder andere durch pures Glück. Die Mehrheit… sagen wir, sie bleibt als Teil der lokalen Infrastruktur zurück.
-	
-	
-	###  „Und warum sollte man überhaupt hingehen?“
-	
-	**Antwort:** Weil Geschichten aus Avernus auf jeder Party besser ankommen als Urlaubsfotos deiner Mutter. Vorausgesetzt natürlich, Sie haben noch Zunge, Hände und die Fähigkeit, Sätze zu bilden.
+###  „Kann man in Avernus Urlaub machen?“
+
+**Antwort:** Ja. Man kann auch freiwillig in einen Bienenstock greifen. Beides endet mit Schreien, Stichen und einer völlig neuen Perspektive auf das Leben.
+
+
+###  „Wie lange dauert die Reise?“
+
+**Antwort:** Zeit ist in Avernus… flexibel. Manche Besucher behaupten, sie seien nach drei Tagen zurückgekehrt. Andere meinen, sie seien schon seit Jahrhunderten hier. Eine dritte Gruppe antwortet gar nicht – aus offensichtlichen Gründen.
+
+
+###  „Sind die Einheimischen freundlich?“
+
+**Antwort:** „Freundlich“ im Sinne von: Sie reden zuerst, bevor sie versuchen, Sie zu verspeisen. Viele andere Höllenebenen beneiden Avernus geradezu um diesen **fortschrittlichen diplomatischen Ansatz**.
+
+
+###  „Was sollte man unbedingt mitbringen?“
+
+- Feuerfeste Unterwäsche (für den Fall der Fälle)
+- Ein Ersatzgedächtnis (der Styx liebt Andenken)
+- Viel Humor (hält länger als jede Rüstung)
+- Einen Reisebegleiter, der schneller laufen kann als Sie**
+
+** _Dies ist kein Witz. Wirklich nicht._
+
+
+### „Wie verlässt man Avernus wieder?“
+
+**Antwort:** Ah, die **häufigste** und zugleich **unbeantwortbare** Frage. Manche schaffen es durch Portale, andere durch göttliche Intervention, wieder andere durch pures Glück. Die Mehrheit… sagen wir, sie bleibt als Teil der lokalen Infrastruktur zurück.
+
+
+###  „Und warum sollte man überhaupt hingehen?“
+
+**Antwort:** Weil Geschichten aus Avernus auf jeder Party besser ankommen als Urlaubsfotos deiner Mutter. Vorausgesetzt natürlich, Sie haben noch Zunge, Hände und die Fähigkeit, Sätze zu bilden.

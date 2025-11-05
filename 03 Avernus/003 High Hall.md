@@ -258,6 +258,8 @@ Nach dem erfolgreichen Ritual teilt Großherzog Ravengard seine Vision:
 - Zwei seltsame, vogelartige Humanoide bei infernalen Fahrzeugen
 
 **Lulu erinnert sich:** "Das Schwert der Zariel! Ich half einem Hellreiter, es zu vergraben!"
+
+
 **Fort Knucklebone:** Chukka und Clonk, die Kenku, bauen infernale Fahrzeuge
 
 **Blobby übermittelt Milos Begeisterung:** "Meister Milo ist aufgeregt! Das Schwert könnte der Schlüssel für alles sein!"

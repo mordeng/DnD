@@ -20,7 +20,7 @@
         {{#if page.frontmatter.owner}}
         <div class="info-item">
             <strong>Besitzer:</strong>
-            <a href="/characters/{{page.frontmatter.owner}}.html">{{page.frontmatter.owner}}</a>
+            <a href="{{site.baseUrl}}characters/{{page.frontmatter.owner}}.html">{{page.frontmatter.owner}}</a>
         </div>
         {{/if}}
 
@@ -51,7 +51,7 @@
     <h3>Erwähnt in Sessions</h3>
     <ul>
         {{#each page.linkedEntities.sessions}}
-        <li><a href="/sessions/{{this}}.html">{{this}}</a></li>
+        <li><a href="{{site.baseUrl}}sessions/{{this}}.html">{{this}}</a></li>
         {{/each}}
     </ul>
 </div>

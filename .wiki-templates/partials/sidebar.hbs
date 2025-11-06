@@ -15,7 +15,7 @@
         <ul class="nav-tree">
             <!-- Home -->
             <li class="nav-item">
-                <a href="/" class="nav-link {{#if (eq page.id 'homepage')}}active{{/if}}">
+                <a href="{{site.baseUrl}}" class="nav-link {{#if (eq page.id 'homepage')}}active{{/if}}">
                     <svg class="nav-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M3 10l7-7 7 7v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8z"/>
                         <polyline points="9,17 9,13 11,13 11,17"/>
@@ -26,7 +26,7 @@
 
             <!-- Timeline -->
             <li class="nav-item">
-                <a href="/timeline.html" class="nav-link {{#if (eq page.type 'timeline')}}active{{/if}}">
+                <a href="{{site.baseUrl}}timeline.html" class="nav-link {{#if (eq page.type 'timeline')}}active{{/if}}">
                     <svg class="nav-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="10" cy="10" r="8"/>
                         <polyline points="10,5 10,10 13,13"/>
@@ -48,12 +48,12 @@
                     </svg>
                 </button>
                 <ul class="nav-submenu">
-                    <li><a href="/characters/pcs.html">Spielercharaktere (6)</a></li>
-                    <li><a href="/characters/npcs.html">NPCs</a></li>
+                    <li><a href="{{site.baseUrl}}characters/pcs.html">Spielercharaktere (6)</a></li>
+                    <li><a href="{{site.baseUrl}}characters/npcs.html">NPCs</a></li>
                     <li class="nav-divider"></li>
                     {{#each site.characters}}
                     <li>
-                        <a href="/characters/{{this.slug}}.html" class="{{#if (eq ../page.slug this.slug)}}active{{/if}}">
+                        <a href="{{site.baseUrl}}characters/{{this.slug}}.html" class="{{#if (eq ../page.slug this.slug)}}active{{/if}}">
                             {{this.name}}
                         </a>
                     </li>
@@ -74,9 +74,9 @@
                     </svg>
                 </button>
                 <ul class="nav-submenu">
-                    <li><a href="/locations/arc-1/">Arc 1: Deep Underground</a></li>
-                    <li><a href="/locations/arc-2/">Arc 2: Baldur's Gate</a></li>
-                    <li><a href="/locations/arc-3/">Arc 3: Avernus</a></li>
+                    <li><a href="{{site.baseUrl}}locations/arc-1/">Arc 1: Deep Underground</a></li>
+                    <li><a href="{{site.baseUrl}}locations/arc-2/">Arc 2: Baldur's Gate</a></li>
+                    <li><a href="{{site.baseUrl}}locations/arc-3/">Arc 3: Avernus</a></li>
                 </ul>
             </li>
 
@@ -93,15 +93,15 @@
                     </svg>
                 </button>
                 <ul class="nav-submenu">
-                    <li><a href="/sessions/arc-1/">Arc 1 (Tag 1-67)</a></li>
-                    <li><a href="/sessions/arc-2/">Arc 2 (Tag 68-134)</a></li>
-                    <li><a href="/sessions/arc-3/">Arc 3 (Tag 135+)</a></li>
+                    <li><a href="{{site.baseUrl}}sessions/arc-1/">Arc 1 (Tag 1-67)</a></li>
+                    <li><a href="{{site.baseUrl}}sessions/arc-2/">Arc 2 (Tag 68-134)</a></li>
+                    <li><a href="{{site.baseUrl}}sessions/arc-3/">Arc 3 (Tag 135+)</a></li>
                 </ul>
             </li>
 
             <!-- Quests -->
             <li class="nav-item">
-                <a href="/quests/" class="nav-link {{#if (eq page.type 'quest')}}active{{/if}}">
+                <a href="{{site.baseUrl}}quests/" class="nav-link {{#if (eq page.type 'quest')}}active{{/if}}">
                     <svg class="nav-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="10" cy="10" r="8"/>
                         <line x1="14" y1="6" x2="6" y2="14"/>
@@ -112,7 +112,7 @@
 
             <!-- Items -->
             <li class="nav-item">
-                <a href="/items/" class="nav-link {{#if (eq page.type 'item')}}active{{/if}}">
+                <a href="{{site.baseUrl}}items/" class="nav-link {{#if (eq page.type 'item')}}active{{/if}}">
                     <svg class="nav-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
                         <polygon points="10,2 2,7 2,13 10,18 18,13 18,7"/>
                         <polyline points="2,7 10,12 18,7"/>
@@ -124,7 +124,7 @@
 
             <!-- Factions -->
             <li class="nav-item">
-                <a href="/factions/" class="nav-link {{#if (eq page.type 'faction')}}active{{/if}}">
+                <a href="{{site.baseUrl}}factions/" class="nav-link {{#if (eq page.type 'faction')}}active{{/if}}">
                     <svg class="nav-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M10 2l8 4v6c0 4-8 8-8 8s-8-4-8-8V6l8-4z"/>
                     </svg>

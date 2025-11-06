@@ -3,7 +3,7 @@
     "title": "Milo Quicksparks Abenteuerlogbuch",
     "subtitle": "Eine epische Reise von Moreva bis in die Tiefen von Avernus",
     "language": "de",
-    "baseUrl": "/",
+    "baseUrl": "/DnD/",
     "outputDir": "wiki-output",
     "currentDay": 145,
     "currentArc": "Avernus",

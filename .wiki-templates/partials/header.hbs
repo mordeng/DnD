@@ -2,7 +2,7 @@
     <div class="header-container">
         <!-- Logo & Title -->
         <div class="header-brand">
-            <a href="/" class="header-logo-link">
+            <a href="{{site.baseUrl}}" class="header-logo-link">
                 <svg class="header-logo" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
                     <path d="M20 8 L20 32 M8 20 L32 20" stroke="currentColor" stroke-width="2"/>
@@ -10,18 +10,18 @@
                 </svg>
             </a>
             <div class="header-title">
-                <h1><a href="/">{{site.title}}</a></h1>
+                <h1><a href="{{site.baseUrl}}">{{site.title}}</a></h1>
                 <span class="header-subtitle">Tag {{site.currentDay}} • {{site.currentArc}} • {{site.currentLocation}}</span>
             </div>
         </div>
 
         <!-- Main Navigation (Desktop) -->
         <nav class="header-nav" aria-label="Primary navigation">
-            <a href="/" class="nav-link">Home</a>
-            <a href="/timeline.html" class="nav-link">Timeline</a>
-            <a href="/characters/" class="nav-link">Characters</a>
-            <a href="/sessions/" class="nav-link">Sessions</a>
-            <a href="/quests/" class="nav-link">Quests</a>
+            <a href="{{site.baseUrl}}" class="nav-link">Home</a>
+            <a href="{{site.baseUrl}}timeline.html" class="nav-link">Timeline</a>
+            <a href="{{site.baseUrl}}characters/" class="nav-link">Characters</a>
+            <a href="{{site.baseUrl}}sessions/" class="nav-link">Sessions</a>
+            <a href="{{site.baseUrl}}quests/" class="nav-link">Quests</a>
         </nav>
 
         <!-- Utility Controls -->

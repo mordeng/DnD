@@ -529,6 +529,12 @@ async function registerPartials() {
   Handlebars.registerHelper('ne', (a, b) => a !== b);
   Handlebars.registerHelper('gt', (a, b) => a > b);
   Handlebars.registerHelper('lt', (a, b) => a < b);
+  Handlebars.registerHelper('url', function(path) {
+    const baseUrl = CONFIG.wiki.baseUrl || '/';
+    // Remove leading slash from path if present to avoid double slashes
+    const cleanPath = path.startsWith('/') ? path.substring(1) : path;
+    return baseUrl + cleanPath;
+  });
   Handlebars.registerHelper('math', function(lvalue, operator, rvalue, options) {
     lvalue = parseFloat(lvalue);
     rvalue = parseFloat(rvalue);

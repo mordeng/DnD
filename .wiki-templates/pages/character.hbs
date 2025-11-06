@@ -1,7 +1,7 @@
 <!-- Character Header -->
 <header class="character-header">
     <div class="character-portrait-large">
-        <img src="/assets/images/characters/{{page.slug}}.jpg"
+        <img src="{{site.baseUrl}}assets/images/characters/{{page.slug}}.jpg"
              alt="{{page.title}} Portrait"
              onerror="this.src='/assets/images/character-placeholder.png'">
         <div class="character-badge status-{{page.status}}">
@@ -20,7 +20,7 @@
             <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M10 2l8 4v6c0 4-8 8-8 8s-8-4-8-8V6l8-4z"/>
             </svg>
-            <a href="/factions/{{page.factionSlug}}.html">{{page.faction}}</a>
+            <a href="{{site.baseUrl}}factions/{{page.factionSlug}}.html">{{page.faction}}</a>
         </div>
         {{/if}}
 
@@ -153,7 +153,7 @@
         <div class="relationship-card relationship-{{this.type}}">
             <div class="relationship-header">
                 <a href="{{this.url}}">
-                    <img src="/assets/images/characters/{{this.slug}}.jpg"
+                    <img src="{{site.baseUrl}}assets/images/characters/{{this.slug}}.jpg"
                          alt="{{this.name}}"
                          class="relationship-avatar"
                          onerror="this.src='/assets/images/character-placeholder.png'">

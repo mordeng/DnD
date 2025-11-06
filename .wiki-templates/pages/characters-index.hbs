@@ -19,7 +19,7 @@
     <article class="character-card" data-type="{{this.frontmatter.type}}">
         <a href="{{this.url}}" class="character-card-link">
             <div class="character-card-image">
-                <img src="/assets/images/characters/{{this.slug}}.jpg"
+                <img src="{{site.baseUrl}}assets/images/characters/{{this.slug}}.jpg"
                      alt="{{this.title}}"
                      onerror="this.src='/assets/images/character-placeholder.png'">
                 {{#if this.status}}

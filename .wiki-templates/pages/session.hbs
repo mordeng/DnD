@@ -45,8 +45,8 @@
             <h4>Anwesende Charaktere</h4>
             <div class="character-list-small">
                 {{#each page.charactersPresent}}
-                <a href="/characters/{{this.slug}}.html" class="character-link">
-                    <img src="/assets/images/characters/{{this.slug}}.jpg"
+                <a href="{{site.baseUrl}}characters/{{this.slug}}.html" class="character-link">
+                    <img src="{{site.baseUrl}}assets/images/characters/{{this.slug}}.jpg"
                          alt="{{this.name}}"
                          class="character-avatar-small"
                          onerror="this.src='/assets/images/character-placeholder.png'">
@@ -136,7 +136,7 @@
     <div></div>
     {{/if}}
 
-    <a href="/sessions/" class="session-nav-link session-nav-index">
+    <a href="{{site.baseUrl}}sessions/" class="session-nav-link session-nav-index">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="3" y1="6" x2="17" y2="6"/>
             <line x1="3" y1="10" x2="17" y2="10"/>

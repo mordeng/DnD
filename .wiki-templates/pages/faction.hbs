@@ -96,7 +96,7 @@
         <h3>Mitglieder</h3>
         <div class="related-list">
             {{#each page.linkedEntities.characters}}
-            <a href="/characters/{{this}}.html" class="related-link">{{this}}</a>
+            <a href="{{site.baseUrl}}characters/{{this}}.html" class="related-link">{{this}}</a>
             {{/each}}
         </div>
     </section>
@@ -108,7 +108,7 @@
         <h3>Wichtige NPCs</h3>
         <div class="related-list">
             {{#each page.linkedEntities.npcs}}
-            <a href="/npcs/{{this}}.html" class="related-link">{{this}}</a>
+            <a href="{{site.baseUrl}}npcs/{{this}}.html" class="related-link">{{this}}</a>
             {{/each}}
         </div>
     </section>
@@ -120,7 +120,7 @@
         <h3>Erwähnt in Sessions</h3>
         <div class="related-list">
             {{#each page.linkedEntities.sessions}}
-            <a href="/sessions/{{this}}.html" class="related-link">{{this}}</a>
+            <a href="{{site.baseUrl}}sessions/{{this}}.html" class="related-link">{{this}}</a>
             {{/each}}
         </div>
     </section>

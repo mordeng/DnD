@@ -53,6 +53,16 @@
       "outputPath": "items",
       "template": "item"
     },
+    "locations": {
+      "patterns": ["locations/**/*.md"],
+      "outputPath": "locations",
+      "template": "location"
+    },
+    "factions": {
+      "patterns": ["factions/**/*.md"],
+      "outputPath": "factions",
+      "template": "faction"
+    },
     "general": {
       "patterns": ["Campaign.md"],
       "outputPath": ".",
@@ -87,15 +97,8 @@
   "navigation": [
     {"label": "Home", "path": "/", "icon": "home"},
     {"label": "Timeline", "path": "/timeline.html", "icon": "clock"},
-    {"label": "Characters", "path": "/characters/", "icon": "users", "children": [
-      {"label": "Spielercharaktere", "path": "/characters/pcs.html"},
-      {"label": "NPCs", "path": "/characters/npcs.html"}
-    ]},
-    {"label": "Locations", "path": "/locations/", "icon": "map", "children": [
-      {"label": "Arc 1: Deep Underground", "path": "/locations/arc-1/"},
-      {"label": "Arc 2: Baldur's Gate", "path": "/locations/arc-2/"},
-      {"label": "Arc 3: Avernus", "path": "/locations/arc-3/"}
-    ]},
+    {"label": "Characters", "path": "/characters/", "icon": "users"},
+    {"label": "Locations", "path": "/locations/", "icon": "map"},
     {"label": "Sessions", "path": "/sessions/", "icon": "book"},
     {"label": "Quests", "path": "/quests/", "icon": "target"},
     {"label": "Items", "path": "/items/", "icon": "sparkles"},

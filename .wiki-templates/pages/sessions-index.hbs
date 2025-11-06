@@ -1,0 +1,68 @@
+<!-- Sessions Index Header -->
+<header class="category-header">
+    <h1>Sessions</h1>
+    <p class="category-description">Chronik unserer Abenteuer</p>
+</header>
+
+<!-- Arc Navigation -->
+<div class="arc-navigation">
+    <button class="arc-btn active" data-arc="all">Alle Arcs</button>
+    <button class="arc-btn" data-arc="1">Arc 1: Deep Underground</button>
+    <button class="arc-btn" data-arc="2">Arc 2: Baldur's Gate</button>
+    <button class="arc-btn" data-arc="3">Arc 3: Avernus</button>
+</div>
+
+<!-- Sessions by Arc -->
+{{#each arcs}}
+<section class="arc-section" data-arc="{{this.number}}">
+    <h2 class="arc-title">
+        <span class="arc-number">Arc {{this.number}}</span>
+        {{this.name}}
+    </h2>
+
+    <div class="sessions-list">
+        {{#each this.sessions}}
+        <article class="session-card">
+            <a href="{{this.url}}" class="session-card-link">
+                <div class="session-card-header">
+                    <h3 class="session-title">{{this.title}}</h3>
+                    <div class="session-meta">
+                        {{#if this.dayStart}}
+                        <span class="session-day">Tag {{this.dayStart}}{{#if this.dayEnd}}-{{this.dayEnd}}{{/if}}</span>
+                        {{/if}}
+                    </div>
+                </div>
+
+                {{#if this.location}}
+                <div class="session-location">
+                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 2a7 7 0 017 7c0 5-7 11-7 11S3 14 3 9a7 7 0 017-7z"/>
+                        <circle cx="10" cy="9" r="2"/>
+                    </svg>
+                    {{this.location}}
+                </div>
+                {{/if}}
+
+                {{#if this.excerpt}}
+                <p class="session-excerpt">{{this.excerpt}}</p>
+                {{/if}}
+
+                {{#if this.tags.length}}
+                <div class="session-tags">
+                    {{#each this.tags}}
+                    <span class="tag tag-small">{{this}}</span>
+                    {{/each}}
+                </div>
+                {{/if}}
+            </a>
+        </article>
+        {{/each}}
+    </div>
+</section>
+{{/each}}
+
+{{#unless arcs.length}}
+<div class="empty-state">
+    <p>Keine Sessions gefunden.</p>
+</div>
+{{/unless}}

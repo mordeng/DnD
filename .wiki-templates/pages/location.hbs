@@ -1,0 +1,117 @@
+<!-- Location Header -->
+<header class="location-header">
+    <div class="location-title-bar">
+        <h1 class="location-title">{{page.title}}</h1>
+        {{#if page.frontmatter.arc}}
+        <span class="location-arc">Arc {{page.frontmatter.arc}}</span>
+        {{/if}}
+    </div>
+
+    {{#if page.frontmatter.region}}
+    <div class="location-region">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10 2a7 7 0 017 7c0 5-7 11-7 11S3 14 3 9a7 7 0 017-7z"/>
+            <circle cx="10" cy="9" r="2"/>
+        </svg>
+        {{page.frontmatter.region}}
+    </div>
+    {{/if}}
+
+    {{#if page.tags.length}}
+    <div class="location-tags">
+        {{#each page.tags}}
+        <span class="tag">{{this}}</span>
+        {{/each}}
+    </div>
+    {{/if}}
+</header>
+
+<!-- Location Quick Info -->
+{{#if page.frontmatter}}
+<div class="location-info-box">
+    <div class="info-grid">
+        {{#if page.frontmatter.type}}
+        <div class="info-item">
+            <strong>Typ:</strong> {{page.frontmatter.type}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.population}}
+        <div class="info-item">
+            <strong>Bevölkerung:</strong> {{page.frontmatter.population}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.ruler}}
+        <div class="info-item">
+            <strong>Herrscher:</strong> {{page.frontmatter.ruler}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.climate}}
+        <div class="info-item">
+            <strong>Klima:</strong> {{page.frontmatter.climate}}
+        </div>
+        {{/if}}
+    </div>
+</div>
+{{/if}}
+
+<!-- Location Description -->
+<div class="location-content">
+    {{{page.htmlContent}}}
+</div>
+
+<!-- Related Content -->
+<div class="location-related">
+    <!-- Sessions at this location -->
+    {{#if page.linkedEntities.sessions.length}}
+    <section class="related-section">
+        <h3>Sessions an diesem Ort</h3>
+        <div class="related-list">
+            {{#each page.linkedEntities.sessions}}
+            <a href="/sessions/{{this}}.html" class="related-link">{{this}}</a>
+            {{/each}}
+        </div>
+    </section>
+    {{/if}}
+
+    <!-- Characters associated -->
+    {{#if page.linkedEntities.characters.length}}
+    <section class="related-section">
+        <h3>Charaktere hier</h3>
+        <div class="related-list">
+            {{#each page.linkedEntities.characters}}
+            <a href="/characters/{{this}}.html" class="related-link">{{this}}</a>
+            {{/each}}
+        </div>
+    </section>
+    {{/if}}
+
+    <!-- NPCs at this location -->
+    {{#if page.linkedEntities.npcs.length}}
+    <section class="related-section">
+        <h3>NPCs hier</h3>
+        <div class="related-list">
+            {{#each page.linkedEntities.npcs}}
+            <a href="/npcs/{{this}}.html" class="related-link">{{this}}</a>
+            {{/each}}
+        </div>
+    </section>
+    {{/if}}
+</div>
+
+<!-- Backlinks -->
+{{#if page.backlinks.length}}
+<div class="backlinks">
+    <h3>Erwähnungen</h3>
+    <ul>
+        {{#each page.backlinks}}
+        <li>
+            <a href="{{this.fromUrl}}">{{this.fromTitle}}</a>
+            {{#if this.count}}({{this.count}}×){{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}

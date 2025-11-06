@@ -1,0 +1,143 @@
+<!-- Faction Header -->
+<header class="faction-header">
+    <div class="faction-title-bar">
+        <h1 class="faction-title">{{page.title}}</h1>
+        {{#if page.frontmatter.alignment}}
+        <span class="faction-alignment alignment-{{page.frontmatter.alignment}}">{{page.frontmatter.alignment}}</span>
+        {{/if}}
+    </div>
+
+    {{#if page.frontmatter.motto}}
+    <div class="faction-motto">
+        "{{page.frontmatter.motto}}"
+    </div>
+    {{/if}}
+
+    {{#if page.tags.length}}
+    <div class="faction-tags">
+        {{#each page.tags}}
+        <span class="tag">{{this}}</span>
+        {{/each}}
+    </div>
+    {{/if}}
+</header>
+
+<!-- Faction Info Box -->
+{{#if page.frontmatter}}
+<div class="faction-info-box">
+    <div class="info-grid">
+        {{#if page.frontmatter.type}}
+        <div class="info-item">
+            <strong>Typ:</strong> {{page.frontmatter.type}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.leader}}
+        <div class="info-item">
+            <strong>Anführer:</strong> {{page.frontmatter.leader}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.headquarters}}
+        <div class="info-item">
+            <strong>Hauptquartier:</strong> {{page.frontmatter.headquarters}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.influence}}
+        <div class="info-item">
+            <strong>Einfluss:</strong> {{page.frontmatter.influence}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.status}}
+        <div class="info-item">
+            <strong>Status:</strong>
+            <span class="faction-status status-{{page.frontmatter.status}}">{{page.frontmatter.status}}</span>
+        </div>
+        {{/if}}
+    </div>
+</div>
+{{/if}}
+
+<!-- Faction Description -->
+<div class="faction-content">
+    {{{page.htmlContent}}}
+</div>
+
+<!-- Faction Relationships -->
+{{#if page.frontmatter.allies}}
+<section class="faction-relationships">
+    <h3>Verbündete</h3>
+    <div class="relationship-list">
+        {{#each page.frontmatter.allies}}
+        <span class="relationship-tag ally">{{this}}</span>
+        {{/each}}
+    </div>
+</section>
+{{/if}}
+
+{{#if page.frontmatter.enemies}}
+<section class="faction-relationships">
+    <h3>Feinde</h3>
+    <div class="relationship-list">
+        {{#each page.frontmatter.enemies}}
+        <span class="relationship-tag enemy">{{this}}</span>
+        {{/each}}
+    </div>
+</section>
+{{/if}}
+
+<!-- Related Content -->
+<div class="faction-related">
+    <!-- Members -->
+    {{#if page.linkedEntities.characters.length}}
+    <section class="related-section">
+        <h3>Mitglieder</h3>
+        <div class="related-list">
+            {{#each page.linkedEntities.characters}}
+            <a href="/characters/{{this}}.html" class="related-link">{{this}}</a>
+            {{/each}}
+        </div>
+    </section>
+    {{/if}}
+
+    <!-- NPCs -->
+    {{#if page.linkedEntities.npcs.length}}
+    <section class="related-section">
+        <h3>Wichtige NPCs</h3>
+        <div class="related-list">
+            {{#each page.linkedEntities.npcs}}
+            <a href="/npcs/{{this}}.html" class="related-link">{{this}}</a>
+            {{/each}}
+        </div>
+    </section>
+    {{/if}}
+
+    <!-- Related Sessions -->
+    {{#if page.linkedEntities.sessions.length}}
+    <section class="related-section">
+        <h3>Erwähnt in Sessions</h3>
+        <div class="related-list">
+            {{#each page.linkedEntities.sessions}}
+            <a href="/sessions/{{this}}.html" class="related-link">{{this}}</a>
+            {{/each}}
+        </div>
+    </section>
+    {{/if}}
+</div>
+
+<!-- Backlinks -->
+{{#if page.backlinks.length}}
+<div class="backlinks">
+    <h3>Weitere Erwähnungen</h3>
+    <ul>
+        {{#each page.backlinks}}
+        <li>
+            <a href="{{this.fromUrl}}">{{this.fromTitle}}</a>
+            {{#if this.count}}({{this.count}}×){{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}

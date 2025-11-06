@@ -1,0 +1,70 @@
+<!-- Item Header -->
+<header class="item-header">
+    <h1 class="item-title">{{page.title}}</h1>
+
+    {{#if page.frontmatter.rarity}}
+    <div class="item-rarity-badge rarity-{{page.frontmatter.rarity}}">
+        {{page.frontmatter.rarity}}
+    </div>
+    {{/if}}
+
+    {{#if page.frontmatter.type}}
+    <div class="item-type">{{page.frontmatter.type}}</div>
+    {{/if}}
+</header>
+
+<!-- Item Info Box -->
+{{#if page.frontmatter}}
+<div class="item-info-box">
+    <div class="info-grid">
+        {{#if page.frontmatter.owner}}
+        <div class="info-item">
+            <strong>Besitzer:</strong>
+            <a href="/characters/{{page.frontmatter.owner}}.html">{{page.frontmatter.owner}}</a>
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.acquired}}
+        <div class="info-item">
+            <strong>Erhalten:</strong> {{page.frontmatter.acquired}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.attunement}}
+        <div class="info-item">
+            <strong>Einstimmung:</strong>
+            <span class="attunement-required">Erforderlich</span>
+        </div>
+        {{/if}}
+    </div>
+</div>
+{{/if}}
+
+<!-- Item Description -->
+<div class="item-content">
+    {{{page.htmlContent}}}
+</div>
+
+<!-- Related Sessions -->
+{{#if page.linkedEntities.sessions.length}}
+<div class="related-sessions">
+    <h3>Erwähnt in Sessions</h3>
+    <ul>
+        {{#each page.linkedEntities.sessions}}
+        <li><a href="/sessions/{{this}}.html">{{this}}</a></li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}
+
+<!-- Backlinks -->
+{{#if page.backlinks.length}}
+<div class="backlinks">
+    <h3>Erwähnungen</h3>
+    <ul>
+        {{#each page.backlinks}}
+        <li><a href="{{this.fromUrl}}">{{this.fromTitle}}</a> ({{this.count}}×)</li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}

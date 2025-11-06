@@ -1,0 +1,12 @@
+{
+  "characters": {
+    "kalmaris": 12345678,
+    "lamil": 23456789,
+    "longjohn": 34567890,
+    "lufnik": 45678901,
+    "milo": 56789012,
+    "serox": 67890123
+  },
+  "syncInterval": 300000,
+  "enableAutoSync": false
+}

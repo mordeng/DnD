@@ -1,0 +1,63 @@
+<!-- Quests Index Header -->
+<header class="category-header">
+    <h1>Quests</h1>
+    <p class="category-description">Aufgaben und persönliche Storylines</p>
+</header>
+
+<!-- Status Filter -->
+<div class="filter-bar">
+    <button class="filter-btn active" data-status="all">Alle</button>
+    <button class="filter-btn" data-status="active">Aktiv</button>
+    <button class="filter-btn" data-status="completed">Abgeschlossen</button>
+    <button class="filter-btn" data-status="failed">Fehlgeschlagen</button>
+</div>
+
+<!-- Quests Grid -->
+<div class="quests-grid">
+    {{#each quests}}
+    <article class="quest-card" data-status="{{this.frontmatter.status}}">
+        <a href="{{this.url}}" class="quest-card-link">
+            <div class="quest-card-header">
+                <h3 class="quest-title">{{this.title}}</h3>
+                {{#if this.frontmatter.status}}
+                <span class="quest-status status-{{this.frontmatter.status}}">{{this.frontmatter.status}}</span>
+                {{/if}}
+            </div>
+
+            <div class="quest-meta">
+                {{#if this.frontmatter.questGiver}}
+                <div class="quest-giver">
+                    <strong>Auftraggeber:</strong> {{this.frontmatter.questGiver}}
+                </div>
+                {{/if}}
+
+                {{#if this.frontmatter.character}}
+                <div class="quest-character">
+                    <strong>Charakter:</strong> {{this.frontmatter.character}}
+                </div>
+                {{/if}}
+            </div>
+
+            {{#if this.excerpt}}
+            <p class="quest-excerpt">{{this.excerpt}}</p>
+            {{/if}}
+
+            {{#if this.frontmatter.reward}}
+            <div class="quest-reward">
+                <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="10" cy="10" r="8"/>
+                    <path d="M10 6v4l2 2"/>
+                </svg>
+                {{this.frontmatter.reward}}
+            </div>
+            {{/if}}
+        </a>
+    </article>
+    {{/each}}
+</div>
+
+{{#unless quests.length}}
+<div class="empty-state">
+    <p>Keine Quests gefunden.</p>
+</div>
+{{/unless}}

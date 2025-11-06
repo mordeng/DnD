@@ -1,0 +1,219 @@
+<!-- Character Header with Live Data -->
+<header class="character-header">
+    <div class="character-portrait-large">
+        {{#if page.ddbData.avatarUrl}}
+        <img src="{{page.ddbData.avatarUrl}}"
+             alt="{{page.title}} Portrait"
+             onerror="this.src='/assets/images/characters/{{page.slug}}.jpg'">
+        {{else}}
+        <img src="/assets/images/characters/{{page.slug}}.jpg"
+             alt="{{page.title}} Portrait"
+             onerror="this.src='/assets/images/character-placeholder.png'">
+        {{/if}}
+        <div class="character-badge status-{{page.status}}">
+            {{#if (eq page.status 'active')}}Active{{/if}}
+            {{#if (eq page.status 'retired')}}Retired{{/if}}
+            {{#if (eq page.status 'deceased')}}Verstorben{{/if}}
+        </div>
+        {{#if page.ddbData}}
+        <div class="live-data-badge" title="Live data from D&D Beyond">
+            <svg width="12" height="12" viewBox="0 0 20 20" fill="currentColor">
+                <circle cx="10" cy="10" r="8"/>
+            </svg>
+            LIVE
+        </div>
+        {{/if}}
+    </div>
+
+    <div class="character-header-content">
+        <h1 class="character-title">{{page.title}}</h1>
+        <p class="character-subtitle">
+            {{page.race}}
+            {{#if page.ddbData.classes}}
+                {{#each page.ddbData.classes}}
+                    {{this.name}}{{#if this.subclass}} ({{this.subclass}}){{/if}}{{#unless @last}}/{{/unless}}
+                {{/each}}
+            {{else}}
+                {{page.characterClass}}
+            {{/if}}
+            • Level {{page.level}}
+        </p>
+
+        {{#if page.ddbData.alignment}}
+        <p class="character-alignment">{{page.ddbData.alignment}}</p>
+        {{/if}}
+
+        {{#if page.ddbData.background}}
+        <p class="character-background">Background: {{page.ddbData.background}}</p>
+        {{/if}}
+
+        {{#if page.tags}}
+        <div class="character-tags">
+            {{#each page.tags}}
+            <span class="tag">{{this}}</span>
+            {{/each}}
+        </div>
+        {{/if}}
+    </div>
+</header>
+
+<!-- Live Combat Stats -->
+{{#if page.ddbData}}
+<section class="combat-stats-live">
+    <div class="stats-row">
+        <div class="stat-box-large hp">
+            <span class="stat-label">Hit Points</span>
+            <span class="stat-value-large">{{page.ddbData.hp}}<span class="stat-max">/{{page.ddbData.maxHp}}</span></span>
+            {{#if page.ddbData.tempHp}}
+            <span class="stat-temp">+{{page.ddbData.tempHp}} temp</span>
+            {{/if}}
+        </div>
+
+        <div class="stat-box-large ac">
+            <span class="stat-label">Armor Class</span>
+            <span class="stat-value-large">{{page.ddbData.ac}}</span>
+        </div>
+
+        <div class="stat-box-large initiative">
+            <span class="stat-label">Initiative</span>
+            <span class="stat-value-large">{{#if (gt page.ddbData.initiative 0)}}+{{/if}}{{page.ddbData.initiative}}</span>
+        </div>
+
+        <div class="stat-box-large speed">
+            <span class="stat-label">Speed</span>
+            <span class="stat-value-large">{{page.ddbData.speed}} ft</span>
+        </div>
+
+        <div class="stat-box-large prof">
+            <span class="stat-label">Proficiency</span>
+            <span class="stat-value-large">+{{page.ddbData.proficiencyBonus}}</span>
+        </div>
+    </div>
+</section>
+
+<!-- Ability Scores -->
+<section class="ability-scores">
+    <h2>Ability Scores</h2>
+    <div class="abilities-grid">
+        <div class="ability-box">
+            <div class="ability-name">STR</div>
+            <div class="ability-score">{{page.ddbData.stats.strength}}</div>
+            <div class="ability-modifier">{{#if (gt page.ddbData.stats.strength 10)}}+{{/if}}{{math (math page.ddbData.stats.strength '-' 10) '/' 2 'floor'}}</div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-name">DEX</div>
+            <div class="ability-score">{{page.ddbData.stats.dexterity}}</div>
+            <div class="ability-modifier">{{#if (gt page.ddbData.stats.dexterity 10)}}+{{/if}}{{math (math page.ddbData.stats.dexterity '-' 10) '/' 2 'floor'}}</div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-name">CON</div>
+            <div class="ability-score">{{page.ddbData.stats.constitution}}</div>
+            <div class="ability-modifier">{{#if (gt page.ddbData.stats.constitution 10)}}+{{/if}}{{math (math page.ddbData.stats.constitution '-' 10) '/' 2 'floor'}}</div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-name">INT</div>
+            <div class="ability-score">{{page.ddbData.stats.intelligence}}</div>
+            <div class="ability-modifier">{{#if (gt page.ddbData.stats.intelligence 10)}}+{{/if}}{{math (math page.ddbData.stats.intelligence '-' 10) '/' 2 'floor'}}</div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-name">WIS</div>
+            <div class="ability-score">{{page.ddbData.stats.wisdom}}</div>
+            <div class="ability-modifier">{{#if (gt page.ddbData.stats.wisdom 10)}}+{{/if}}{{math (math page.ddbData.stats.wisdom '-' 10) '/' 2 'floor'}}</div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-name">CHA</div>
+            <div class="ability-score">{{page.ddbData.stats.charisma}}</div>
+            <div class="ability-modifier">{{#if (gt page.ddbData.stats.charisma 10)}}+{{/if}}{{math (math page.ddbData.stats.charisma '-' 10) '/' 2 'floor'}}</div>
+        </div>
+    </div>
+</section>
+
+<!-- Spell Slots (if caster) -->
+{{#if page.ddbData.spellSlots.length}}
+<section class="spell-slots">
+    <h2>Spell Slots</h2>
+    <div class="spell-slots-grid">
+        {{#each page.ddbData.spellSlots}}
+        <div class="spell-slot-box">
+            <div class="spell-level">Level {{this.level}}</div>
+            <div class="spell-slots-available">
+                <span class="slots-used">{{this.used}}</span>/<span class="slots-total">{{this.available}}</span>
+            </div>
+            <div class="slot-dots">
+                {{#repeat this.available}}
+                <span class="slot-dot {{#if (lt @index ../this.used)}}used{{/if}}"></span>
+                {{/repeat}}
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</section>
+{{/if}}
+
+<!-- Conditions (if any) -->
+{{#if page.ddbData.conditions.length}}
+<section class="active-conditions">
+    <h2>⚠️ Active Conditions</h2>
+    <div class="conditions-list">
+        {{#each page.ddbData.conditions}}
+        <span class="condition-badge">{{this}}</span>
+        {{/each}}
+    </div>
+</section>
+{{/if}}
+
+<!-- Death Saves -->
+<section class="death-saves dm-only" hidden>
+    <h3>Death Saves</h3>
+    <div class="death-saves-grid">
+        <div class="death-save-row">
+            <span>Successes:</span>
+            <div class="save-dots">
+                <span class="save-dot {{#if (gt page.ddbData.deathSaves.successes 0)}}filled{{/if}}"></span>
+                <span class="save-dot {{#if (gt page.ddbData.deathSaves.successes 1)}}filled{{/if}}"></span>
+                <span class="save-dot {{#if (gt page.ddbData.deathSaves.successes 2)}}filled{{/if}}"></span>
+            </div>
+        </div>
+        <div class="death-save-row">
+            <span>Failures:</span>
+            <div class="save-dots">
+                <span class="save-dot fail {{#if (gt page.ddbData.deathSaves.failures 0)}}filled{{/if}}"></span>
+                <span class="save-dot fail {{#if (gt page.ddbData.deathSaves.failures 1)}}filled{{/if}}"></span>
+                <span class="save-dot fail {{#if (gt page.ddbData.deathSaves.failures 2)}}filled{{/if}}"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- XP Progress -->
+<section class="xp-progress">
+    <h3>Experience</h3>
+    <div class="xp-bar">
+        <span class="xp-value">{{page.ddbData.xp}} XP</span>
+    </div>
+</section>
+
+<div class="live-data-timestamp">
+    <small>Live data last updated: {{page.ddbData.lastUpdated}}</small>
+</div>
+{{/if}}
+
+<!-- Main Content -->
+<div class="character-content">
+    {{{page.htmlContent}}}
+</div>
+
+<!-- Backlinks -->
+{{#if page.backlinks.length}}
+<div class="backlinks">
+    <h3>Erwähnungen</h3>
+    <ul>
+        {{#each page.backlinks}}
+        <li>
+            <a href="{{this.fromUrl}}">{{this.fromTitle}}</a>
+            {{#if this.count}}({{this.count}}×){{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}

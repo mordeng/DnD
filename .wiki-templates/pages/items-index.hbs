@@ -1,0 +1,59 @@
+<!-- Items Index Header -->
+<header class="category-header">
+    <h1>Items & Ausrüstung</h1>
+    <p class="category-description">Magische Gegenstände und besondere Ausrüstung</p>
+</header>
+
+<!-- Rarity Filter -->
+<div class="filter-bar">
+    <button class="filter-btn active" data-rarity="all">Alle</button>
+    <button class="filter-btn" data-rarity="common">Common</button>
+    <button class="filter-btn" data-rarity="uncommon">Uncommon</button>
+    <button class="filter-btn" data-rarity="rare">Rare</button>
+    <button class="filter-btn" data-rarity="very-rare">Very Rare</button>
+    <button class="filter-btn" data-rarity="legendary">Legendary</button>
+</div>
+
+<!-- Items Grid -->
+<div class="items-grid">
+    {{#each items}}
+    <article class="item-card" data-rarity="{{this.frontmatter.rarity}}">
+        <a href="{{this.url}}" class="item-card-link">
+            <div class="item-card-header">
+                <h3 class="item-title">{{this.title}}</h3>
+                {{#if this.frontmatter.rarity}}
+                <span class="item-rarity rarity-{{this.frontmatter.rarity}}">{{this.frontmatter.rarity}}</span>
+                {{/if}}
+            </div>
+
+            {{#if this.frontmatter.type}}
+            <div class="item-type">{{this.frontmatter.type}}</div>
+            {{/if}}
+
+            {{#if this.excerpt}}
+            <p class="item-excerpt">{{this.excerpt}}</p>
+            {{/if}}
+
+            <div class="item-meta">
+                {{#if this.frontmatter.owner}}
+                <div class="item-owner">
+                    <strong>Besitzer:</strong> {{this.frontmatter.owner}}
+                </div>
+                {{/if}}
+
+                {{#if this.frontmatter.attunement}}
+                <div class="item-attunement">
+                    <span class="attunement-badge">Einstimmung erforderlich</span>
+                </div>
+                {{/if}}
+            </div>
+        </a>
+    </article>
+    {{/each}}
+</div>
+
+{{#unless items.length}}
+<div class="empty-state">
+    <p>Keine Items gefunden.</p>
+</div>
+{{/unless}}

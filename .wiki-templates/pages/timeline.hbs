@@ -1,0 +1,78 @@
+<!-- Timeline Header -->
+<header class="category-header">
+    <h1>Timeline</h1>
+    <p class="category-description">Chronologische Übersicht aller Ereignisse</p>
+    <div class="timeline-stats">
+        <span class="stat"><strong>{{totalDays}}</strong> Tage</span>
+        <span class="stat"><strong>{{totalSessions}}</strong> Sessions</span>
+        <span class="stat"><strong>3</strong> Story Arcs</span>
+    </div>
+</header>
+
+<!-- Timeline Navigation -->
+<div class="timeline-navigation">
+    <button class="timeline-nav-btn" data-view="detailed">Detailliert</button>
+    <button class="timeline-nav-btn active" data-view="compact">Kompakt</button>
+</div>
+
+<!-- Timeline -->
+<div class="timeline">
+    {{#each arcs}}
+    <section class="timeline-arc">
+        <div class="timeline-arc-header">
+            <h2 class="timeline-arc-title">
+                <span class="arc-badge">Arc {{this.number}}</span>
+                {{this.name}}
+            </h2>
+            <div class="timeline-arc-meta">
+                <span>Tag {{this.dayStart}} - {{this.dayEnd}}</span>
+                <span>{{this.sessions.length}} Sessions</span>
+            </div>
+        </div>
+
+        <div class="timeline-events">
+            {{#each this.sessions}}
+            <article class="timeline-event">
+                <div class="timeline-marker">
+                    <span class="timeline-day">Tag {{this.dayStart}}</span>
+                </div>
+
+                <div class="timeline-content">
+                    <h3 class="timeline-event-title">
+                        <a href="{{this.url}}">{{this.title}}</a>
+                    </h3>
+
+                    {{#if this.location}}
+                    <div class="timeline-location">
+                        <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10 2a7 7 0 017 7c0 5-7 11-7 11S3 14 3 9a7 7 0 017-7z"/>
+                            <circle cx="10" cy="9" r="2"/>
+                        </svg>
+                        {{this.location}}
+                    </div>
+                    {{/if}}
+
+                    {{#if this.excerpt}}
+                    <p class="timeline-excerpt">{{this.excerpt}}</p>
+                    {{/if}}
+
+                    {{#if this.tags.length}}
+                    <div class="timeline-tags">
+                        {{#each this.tags}}
+                        <span class="tag tag-small">{{this}}</span>
+                        {{/each}}
+                    </div>
+                    {{/if}}
+                </div>
+            </article>
+            {{/each}}
+        </div>
+    </section>
+    {{/each}}
+</div>
+
+{{#unless arcs.length}}
+<div class="empty-state">
+    <p>Keine Timeline-Events gefunden.</p>
+</div>
+{{/unless}}

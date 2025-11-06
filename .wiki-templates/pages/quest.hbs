@@ -1,0 +1,73 @@
+<!-- Quest Header -->
+<header class="quest-header">
+    <h1 class="quest-title">{{page.title}}</h1>
+
+    {{#if page.tags}}
+    <div class="quest-tags">
+        {{#each page.tags}}
+        <span class="tag tag-{{this}}">{{this}}</span>
+        {{/each}}
+    </div>
+    {{/if}}
+</header>
+
+<!-- Quest Info -->
+{{#if page.frontmatter}}
+<div class="quest-info-box">
+    <div class="info-grid">
+        {{#if page.frontmatter.questGiver}}
+        <div class="info-item">
+            <strong>Auftraggeber:</strong> {{page.frontmatter.questGiver}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.status}}
+        <div class="info-item">
+            <strong>Status:</strong>
+            <span class="quest-status status-{{page.frontmatter.status}}">{{page.frontmatter.status}}</span>
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.reward}}
+        <div class="info-item">
+            <strong>Belohnung:</strong> {{page.frontmatter.reward}}
+        </div>
+        {{/if}}
+
+        {{#if page.frontmatter.location}}
+        <div class="info-item">
+            <strong>Ort:</strong> {{page.frontmatter.location}}
+        </div>
+        {{/if}}
+    </div>
+</div>
+{{/if}}
+
+<!-- Quest Content -->
+<div class="quest-content">
+    {{{page.htmlContent}}}
+</div>
+
+<!-- Related Characters -->
+{{#if page.linkedEntities.characters.length}}
+<div class="related-characters">
+    <h3>Beteiligte Charaktere</h3>
+    <div class="character-list">
+        {{#each page.linkedEntities.characters}}
+        <a href="/characters/{{this}}.html" class="character-link">{{this}}</a>
+        {{/each}}
+    </div>
+</div>
+{{/if}}
+
+<!-- Backlinks -->
+{{#if page.backlinks.length}}
+<div class="backlinks">
+    <h3>Erwähnungen</h3>
+    <ul>
+        {{#each page.backlinks}}
+        <li><a href="{{this.fromUrl}}">{{this.fromTitle}}</a></li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}

@@ -1,0 +1,101 @@
+<!-- Factions Index Header -->
+<header class="category-header">
+    <h1>Fraktionen & Organisationen</h1>
+    <p class="category-description">Die Mächte und Gruppierungen der Welt</p>
+</header>
+
+<!-- Alignment Filter -->
+<div class="filter-bar">
+    <button class="filter-btn active" data-alignment="all">Alle</button>
+    <button class="filter-btn" data-alignment="good">Gut</button>
+    <button class="filter-btn" data-alignment="neutral">Neutral</button>
+    <button class="filter-btn" data-alignment="evil">Böse</button>
+</div>
+
+<!-- Factions Grid -->
+<div class="factions-grid">
+    {{#each factions}}
+    <article class="faction-card" data-alignment="{{this.frontmatter.alignment}}">
+        <a href="{{this.url}}" class="faction-card-link">
+            <div class="faction-card-header">
+                <h3 class="faction-name">{{this.title}}</h3>
+                {{#if this.frontmatter.alignment}}
+                <span class="faction-alignment alignment-{{this.frontmatter.alignment}}">
+                    {{this.frontmatter.alignment}}
+                </span>
+                {{/if}}
+            </div>
+
+            {{#if this.frontmatter.motto}}
+            <div class="faction-motto">"{{this.frontmatter.motto}}"</div>
+            {{/if}}
+
+            {{#if this.excerpt}}
+            <p class="faction-excerpt">{{this.excerpt}}</p>
+            {{/if}}
+
+            <div class="faction-info-grid">
+                {{#if this.frontmatter.leader}}
+                <div class="faction-info-item">
+                    <strong>Anführer:</strong> {{this.frontmatter.leader}}
+                </div>
+                {{/if}}
+
+                {{#if this.frontmatter.type}}
+                <div class="faction-info-item">
+                    <strong>Typ:</strong> {{this.frontmatter.type}}
+                </div>
+                {{/if}}
+
+                {{#if this.frontmatter.headquarters}}
+                <div class="faction-info-item">
+                    <strong>HQ:</strong> {{this.frontmatter.headquarters}}
+                </div>
+                {{/if}}
+
+                {{#if this.frontmatter.influence}}
+                <div class="faction-info-item">
+                    <strong>Einfluss:</strong>
+                    <div class="influence-bar">
+                        <div class="influence-fill" style="width: {{this.frontmatter.influence}}%"></div>
+                    </div>
+                </div>
+                {{/if}}
+            </div>
+
+            <!-- Relationship indicators -->
+            {{#if this.frontmatter.allies}}
+            <div class="faction-relationships">
+                <span class="relationship-label">Verbündete:</span>
+                {{#each this.frontmatter.allies}}
+                <span class="relationship-tag ally-small">{{this}}</span>
+                {{/each}}
+            </div>
+            {{/if}}
+
+            {{#if this.frontmatter.enemies}}
+            <div class="faction-relationships">
+                <span class="relationship-label">Feinde:</span>
+                {{#each this.frontmatter.enemies}}
+                <span class="relationship-tag enemy-small">{{this}}</span>
+                {{/each}}
+            </div>
+            {{/if}}
+
+            {{#if this.tags.length}}
+            <div class="faction-tags">
+                {{#each this.tags}}
+                <span class="tag tag-small">{{this}}</span>
+                {{/each}}
+            </div>
+            {{/if}}
+        </a>
+    </article>
+    {{/each}}
+</div>
+
+{{#unless factions.length}}
+<div class="empty-state">
+    <p>Keine Fraktionen gefunden.</p>
+</div>
+{{/unless}}

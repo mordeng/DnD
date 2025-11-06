@@ -1,0 +1,59 @@
+<!-- Characters Index Header -->
+<header class="category-header">
+    <h1>Charaktere</h1>
+    <p class="category-description">Die Helden und Begleiter unserer Geschichte</p>
+</header>
+
+<!-- Filter/Sort Options -->
+<div class="filter-bar">
+    <div class="filter-group">
+        <button class="filter-btn active" data-filter="all">Alle</button>
+        <button class="filter-btn" data-filter="pc">Spielercharaktere</button>
+        <button class="filter-btn" data-filter="companion">Begleiter</button>
+    </div>
+</div>
+
+<!-- Characters Grid -->
+<div class="characters-grid">
+    {{#each characters}}
+    <article class="character-card" data-type="{{this.frontmatter.type}}">
+        <a href="{{this.url}}" class="character-card-link">
+            <div class="character-card-image">
+                <img src="/assets/images/characters/{{this.slug}}.jpg"
+                     alt="{{this.title}}"
+                     onerror="this.src='/assets/images/character-placeholder.png'">
+                {{#if this.status}}
+                <span class="character-status status-{{this.status}}">{{this.status}}</span>
+                {{/if}}
+            </div>
+
+            <div class="character-card-content">
+                <h2 class="character-name">{{this.title}}</h2>
+
+                <div class="character-info">
+                    {{#if this.characterClass}}
+                    <span class="character-class">{{this.characterClass}}</span>
+                    {{/if}}
+                    {{#if this.race}}
+                    <span class="character-race">{{this.race}}</span>
+                    {{/if}}
+                </div>
+
+                {{#if this.level}}
+                <div class="character-level">Level {{this.level}}</div>
+                {{/if}}
+
+                {{#if this.excerpt}}
+                <p class="character-excerpt">{{this.excerpt}}</p>
+                {{/if}}
+            </div>
+        </a>
+    </article>
+    {{/each}}
+</div>
+
+{{#unless characters.length}}
+<div class="empty-state">
+    <p>Keine Charaktere gefunden.</p>
+</div>
+{{/unless}}

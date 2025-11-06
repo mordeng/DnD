@@ -1,0 +1,83 @@
+<!-- Locations Index Header -->
+<header class="category-header">
+    <h1>Orte & Locations</h1>
+    <p class="category-description">Die Welt unserer Abenteuer</p>
+</header>
+
+<!-- Arc Filter -->
+<div class="filter-bar">
+    <button class="filter-btn active" data-arc="all">Alle</button>
+    <button class="filter-btn" data-arc="1">Arc 1: Deep Underground</button>
+    <button class="filter-btn" data-arc="2">Arc 2: Baldur's Gate</button>
+    <button class="filter-btn" data-arc="3">Arc 3: Avernus</button>
+</div>
+
+<!-- Locations by Arc -->
+{{#each arcs}}
+<section class="locations-arc-section" data-arc="{{this.number}}">
+    <h2 class="arc-section-title">
+        <span class="arc-badge">Arc {{this.number}}</span>
+        {{this.name}}
+    </h2>
+
+    <div class="locations-grid">
+        {{#each this.locations}}
+        <article class="location-card" data-arc="{{this.frontmatter.arc}}">
+            <a href="{{this.url}}" class="location-card-link">
+                <div class="location-card-header">
+                    <h3 class="location-name">{{this.title}}</h3>
+                    {{#if this.frontmatter.type}}
+                    <span class="location-type">{{this.frontmatter.type}}</span>
+                    {{/if}}
+                </div>
+
+                {{#if this.frontmatter.region}}
+                <div class="location-region">
+                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 2a7 7 0 017 7c0 5-7 11-7 11S3 14 3 9a7 7 0 017-7z"/>
+                        <circle cx="10" cy="9" r="2"/>
+                    </svg>
+                    {{this.frontmatter.region}}
+                </div>
+                {{/if}}
+
+                {{#if this.excerpt}}
+                <p class="location-excerpt">{{this.excerpt}}</p>
+                {{/if}}
+
+                <div class="location-meta">
+                    {{#if this.frontmatter.ruler}}
+                    <div class="location-meta-item">
+                        <strong>Herrscher:</strong> {{this.frontmatter.ruler}}
+                    </div>
+                    {{/if}}
+
+                    {{#if this.sessionsCount}}
+                    <div class="location-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                        {{this.sessionsCount}} Sessions
+                    </div>
+                    {{/if}}
+                </div>
+
+                {{#if this.tags.length}}
+                <div class="location-tags">
+                    {{#each this.tags}}
+                    <span class="tag tag-small">{{this}}</span>
+                    {{/each}}
+                </div>
+                {{/if}}
+            </a>
+        </article>
+        {{/each}}
+    </div>
+</section>
+{{/each}}
+
+{{#unless arcs.length}}
+<div class="empty-state">
+    <p>Keine Locations gefunden.</p>
+</div>
+{{/unless}}

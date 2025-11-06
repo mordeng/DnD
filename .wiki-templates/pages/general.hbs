@@ -1,0 +1,58 @@
+<!-- General Page Header -->
+<header class="page-header">
+    <h1 class="page-title">{{page.title}}</h1>
+
+    {{#if page.excerpt}}
+    <p class="page-excerpt">{{page.excerpt}}</p>
+    {{/if}}
+</header>
+
+<!-- Table of Contents (if available) -->
+{{#if page.toc.length}}
+<nav class="table-of-contents">
+    <h2>Inhaltsverzeichnis</h2>
+    <ul>
+        {{#each page.toc}}
+        <li class="toc-level-{{this.level}}">
+            <a href="#{{this.id}}">{{this.text}}</a>
+        </li>
+        {{/each}}
+    </ul>
+</nav>
+{{/if}}
+
+<!-- Page Content -->
+<div class="page-content">
+    {{{page.htmlContent}}}
+</div>
+
+<!-- Page Meta -->
+<div class="page-meta">
+    <div class="meta-item">
+        <strong>Zuletzt aktualisiert:</strong>
+        {{page.lastModified}}
+    </div>
+    {{#if page.tags.length}}
+    <div class="meta-item">
+        <strong>Tags:</strong>
+        {{#each page.tags}}
+        <span class="tag">{{this}}</span>
+        {{/each}}
+    </div>
+    {{/if}}
+</div>
+
+<!-- Backlinks -->
+{{#if page.backlinks.length}}
+<div class="backlinks">
+    <h3>Erwähnungen</h3>
+    <ul>
+        {{#each page.backlinks}}
+        <li>
+            <a href="{{this.fromUrl}}">{{this.fromTitle}}</a>
+            {{#if this.count}}({{this.count}}×){{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}

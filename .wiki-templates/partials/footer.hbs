@@ -1,0 +1,55 @@
+<footer class="wiki-footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <!-- Campaign Info -->
+            <div class="footer-section">
+                <h4>{{site.title}}</h4>
+                <p>{{site.subtitle}}</p>
+                <p class="footer-meta">
+                    <strong>Tag {{site.currentDay}}</strong> • {{site.currentArc}} • {{site.currentLocation}}
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>Schnellzugriff</h4>
+                <ul class="footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/timeline.html">Timeline</a></li>
+                    <li><a href="/characters/">Characters</a></li>
+                    <li><a href="/sessions/">Sessions</a></li>
+                    <li><a href="/quests/">Quests</a></li>
+                </ul>
+            </div>
+
+            <!-- Campaign Stats -->
+            <div class="footer-section">
+                <h4>Kampagnen-Statistik</h4>
+                <ul class="footer-stats">
+                    <li>🎲 {{site.statistics.sessions}} Sessions</li>
+                    <li>🗓️ {{site.currentDay}} Tage gereist</li>
+                    <li>👥 {{site.statistics.npcs}} NPCs getroffen</li>
+                    <li>📍 {{site.statistics.locations}} Orte besucht</li>
+                    <li>✅ {{site.statistics.questsCompleted}} Quests abgeschlossen</li>
+                </ul>
+            </div>
+
+            <!-- Meta -->
+            <div class="footer-section">
+                <h4>Wiki Info</h4>
+                <p class="footer-text">
+                    Automatisch generiert aus Markdown-Dateien.<br>
+                    Letzte Aktualisierung: <strong>{{site.lastBuildFormatted}}</strong>
+                </p>
+                <p class="footer-text dm-only" hidden>
+                    <small>Build Version: {{site.buildVersion}} • {{site.buildDuration}}</small>
+                </p>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 D&D Campaign Wiki • Made with ❤️ and 🎲</p>
+        </div>
+    </div>
+</footer>

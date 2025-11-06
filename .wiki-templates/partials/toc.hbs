@@ -1,0 +1,21 @@
+<div class="table-of-contents">
+    <h4 class="toc-title">Auf dieser Seite</h4>
+    <nav class="toc-nav" aria-label="Table of contents">
+        <ul class="toc-list">
+            {{#each page.toc}}
+            <li class="toc-item toc-level-{{this.level}}">
+                <a href="#{{this.id}}" class="toc-link">{{this.text}}</a>
+                {{#if this.children}}
+                <ul class="toc-sublist">
+                    {{#each this.children}}
+                    <li class="toc-item toc-level-{{this.level}}">
+                        <a href="#{{this.id}}" class="toc-link">{{this.text}}</a>
+                    </li>
+                    {{/each}}
+                </ul>
+                {{/if}}
+            </li>
+            {{/each}}
+        </ul>
+    </nav>
+</div>

@@ -1,0 +1,161 @@
+<!-- Session Header -->
+<header class="session-header">
+    <div class="session-meta-bar">
+        <span class="session-arc">Arc {{page.arc}}: {{page.arcName}}</span>
+        <span class="session-day">Tag {{page.dayStart}}{{#if page.dayEnd}}-{{page.dayEnd}}{{/if}}</span>
+        {{#if page.sessionDate}}
+        <span class="session-date">Gespielt: {{page.sessionDateFormatted}}</span>
+        {{/if}}
+    </div>
+
+    <h1 class="session-title">{{page.title}}</h1>
+
+    {{#if page.location}}
+    <div class="session-location">
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10 2a7 7 0 017 7c0 5-7 11-7 11S3 14 3 9a7 7 0 017-7z"/>
+            <circle cx="10" cy="9" r="2"/>
+        </svg>
+        <a href="{{page.locationUrl}}">{{page.location}}</a>
+    </div>
+    {{/if}}
+
+    {{#if page.tags}}
+    <div class="session-tags">
+        {{#each page.tags}}
+        <span class="tag tag-{{this}}">{{this}}</span>
+        {{/each}}
+    </div>
+    {{/if}}
+</header>
+
+<!-- Session Summary (if available) -->
+{{#if page.summary}}
+<div class="session-summary">
+    <h2>Zusammenfassung</h2>
+    <p class="lead">{{page.summary}}</p>
+</div>
+{{/if}}
+
+<!-- Quick Info -->
+<div class="session-quick-info">
+    <div class="info-grid">
+        {{#if page.charactersPresent}}
+        <div class="info-box">
+            <h4>Anwesende Charaktere</h4>
+            <div class="character-list-small">
+                {{#each page.charactersPresent}}
+                <a href="/characters/{{this.slug}}.html" class="character-link">
+                    <img src="/assets/images/characters/{{this.slug}}.jpg"
+                         alt="{{this.name}}"
+                         class="character-avatar-small"
+                         onerror="this.src='/assets/images/character-placeholder.png'">
+                    <span>{{this.name}}</span>
+                </a>
+                {{/each}}
+            </div>
+        </div>
+        {{/if}}
+
+        {{#if page.npcsIntroduced}}
+        <div class="info-box">
+            <h4>Neue NPCs</h4>
+            <ul class="npc-list">
+                {{#each page.npcsIntroduced}}
+                <li><a href="{{this.url}}">{{this.name}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+        {{/if}}
+
+        {{#if page.locationsVisited}}
+        <div class="info-box">
+            <h4>Besuchte Orte</h4>
+            <ul class="location-list">
+                {{#each page.locationsVisited}}
+                <li><a href="{{this.url}}">{{this.name}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+        {{/if}}
+
+        {{#if page.itemsAcquired}}
+        <div class="info-box">
+            <h4>Items erhalten</h4>
+            <ul class="item-list-simple">
+                {{#each page.itemsAcquired}}
+                <li>
+                    <a href="{{this.url}}">{{this.name}}</a>
+                    {{#if this.rarity}}
+                    <span class="item-rarity rarity-{{this.rarity}}">{{this.rarityLabel}}</span>
+                    {{/if}}
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+        {{/if}}
+    </div>
+</div>
+
+<!-- Main Session Content -->
+<div class="session-content">
+    {{{page.htmlContent}}}
+</div>
+
+<!-- Quest Updates (DM Only) -->
+{{#if page.questUpdates}}
+<div class="quest-updates dm-only" hidden>
+    <h2>Quest Updates</h2>
+    <div class="quest-update-list">
+        {{#each page.questUpdates}}
+        <div class="quest-update-card">
+            <h4><a href="{{this.questUrl}}">{{this.questName}}</a></h4>
+            <p>{{this.update}}</p>
+            {{#if this.progressChange}}
+            <span class="progress-change">+{{this.progressChange}}%</span>
+            {{/if}}
+        </div>
+        {{/each}}
+    </div>
+</div>
+{{/if}}
+
+<!-- Session Navigation -->
+<nav class="session-navigation">
+    {{#if page.previousSession}}
+    <a href="{{page.previousSession.url}}" class="session-nav-link session-nav-prev">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="12,5 7,10 12,15"/>
+        </svg>
+        <div>
+            <span class="session-nav-label">Vorherige Session</span>
+            <span class="session-nav-title">{{page.previousSession.title}}</span>
+        </div>
+    </a>
+    {{else}}
+    <div></div>
+    {{/if}}
+
+    <a href="/sessions/" class="session-nav-link session-nav-index">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="17" y2="6"/>
+            <line x1="3" y1="10" x2="17" y2="10"/>
+            <line x1="3" y1="14" x2="17" y2="14"/>
+        </svg>
+        Alle Sessions
+    </a>
+
+    {{#if page.nextSession}}
+    <a href="{{page.nextSession.url}}" class="session-nav-link session-nav-next">
+        <div>
+            <span class="session-nav-label">Nächste Session</span>
+            <span class="session-nav-title">{{page.nextSession.title}}</span>
+        </div>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="8,5 13,10 8,15"/>
+        </svg>
+    </a>
+    {{else}}
+    <div></div>
+    {{/if}}
+</nav>

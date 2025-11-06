@@ -1,0 +1,133 @@
+{
+  "characters": {
+    "kalmaris": {
+      "name": "Kalmaris",
+      "aliases": ["Kalmari"],
+      "type": "pc",
+      "url": "/characters/kalmaris.html"
+    },
+    "lamil": {
+      "name": "Lamil",
+      "aliases": [],
+      "type": "pc",
+      "url": "/characters/lamil.html"
+    },
+    "longjohn": {
+      "name": "Longjohn",
+      "aliases": ["Long John"],
+      "type": "pc",
+      "url": "/characters/longjohn.html"
+    },
+    "lufnik": {
+      "name": "Lufnik",
+      "aliases": [],
+      "type": "pc",
+      "url": "/characters/lufnik.html"
+    },
+    "milo": {
+      "name": "Milo",
+      "aliases": ["Milo Quickspark"],
+      "type": "pc",
+      "url": "/characters/milo.html"
+    },
+    "serox": {
+      "name": "Serox",
+      "aliases": [],
+      "type": "pc",
+      "url": "/characters/serox.html"
+    },
+    "blobby": {
+      "name": "Blobby",
+      "aliases": [],
+      "type": "companion",
+      "url": "/characters/blobby.html"
+    }
+  },
+
+  "locations": {
+    "moreva": {
+      "name": "Moreva",
+      "aliases": ["Moreva Island"],
+      "arc": 1,
+      "url": "/locations/arc-1/moreva.html"
+    },
+    "baldurs-gate": {
+      "name": "Baldur's Gate",
+      "aliases": ["Baldurs Gate"],
+      "arc": 2,
+      "url": "/locations/arc-2/baldurs-gate.html"
+    },
+    "avernus": {
+      "name": "Avernus",
+      "aliases": [],
+      "arc": 3,
+      "url": "/locations/arc-3/avernus.html"
+    },
+    "elturel": {
+      "name": "Elturel",
+      "aliases": ["Hellturel"],
+      "arc": 3,
+      "url": "/locations/arc-3/elturel.html"
+    },
+    "fort-knucklebone": {
+      "name": "Fort Knucklebone",
+      "aliases": ["Knucklebone"],
+      "arc": 3,
+      "url": "/locations/arc-3/fort-knucklebone.html"
+    },
+    "high-hall": {
+      "name": "High Hall",
+      "aliases": [],
+      "arc": 3,
+      "url": "/locations/arc-3/high-hall.html"
+    }
+  },
+
+  "factions": {
+    "azure-enklave": {
+      "name": "Azure-Enklave",
+      "aliases": ["Azure Enklave"],
+      "url": "/factions/azure-enklave.html"
+    },
+    "rr-gilde": {
+      "name": "RR-Gilde",
+      "aliases": ["RR Gilde"],
+      "url": "/factions/rr-gilde.html"
+    },
+    "flaming-fists": {
+      "name": "Flaming Fists",
+      "aliases": [],
+      "url": "/factions/flaming-fists.html"
+    }
+  },
+
+  "items": {
+    "präzisionshammer": {
+      "name": "Präzisionshammer",
+      "aliases": ["Serox' Hammer"],
+      "owner": "Serox",
+      "url": "/items/serox-präzisionshammer.html"
+    },
+    "spiegel-der-inneren-wahrheit": {
+      "name": "Spiegel der Inneren Wahrheit",
+      "aliases": ["Kalmaris' Spiegel"],
+      "owner": "Kalmaris",
+      "url": "/items/kalmaris-spiegel-der-inneren-wahrheit.html"
+    }
+  },
+
+  "npcs": {
+    "zariel": {
+      "name": "Zariel",
+      "aliases": ["Archduchess of Avernus"],
+      "type": "enemy",
+      "url": "/characters/npcs/zariel.html"
+    },
+    "captain-zodge": {
+      "name": "Captain Zodge",
+      "aliases": ["Zodge"],
+      "type": "ally",
+      "url": "/characters/npcs/zodge.html"
+    }
+  }
+}

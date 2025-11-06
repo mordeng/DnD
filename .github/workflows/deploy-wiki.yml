@@ -26,13 +26,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
-          cache-dependency-path: .wiki-build/package.json
 
       - name: Install dependencies
         run: |
           cd .wiki-build
-          npm ci
+          npm install
 
       - name: Build wiki
         run: |

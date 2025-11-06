@@ -28,14 +28,28 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: |
-          cd .wiki-build
-          npm install
+        run: npm install
+        working-directory: .wiki-build
 
       - name: Build wiki
+        run: node .wiki-build/build.js
+
+      - name: Verify build output
         run: |
-          cd .wiki-build
-          node build.js
+          echo "=== Build Output Structure ==="
+          ls -la wiki-output/
+          echo ""
+          echo "=== Assets Directory ==="
+          ls -la wiki-output/assets/
+          echo ""
+          echo "=== CSS Files ==="
+          ls -la wiki-output/assets/css/ || echo "No CSS directory"
+          echo ""
+          echo "=== JS Files ==="
+          ls -la wiki-output/assets/js/ || echo "No JS directory"
+          echo ""
+          echo "=== Image Files ==="
+          ls -la wiki-output/assets/images/ | head -20 || echo "No images directory"
 
       - name: Create .nojekyll file
         run: touch wiki-output/.nojekyll

@@ -21,7 +21,10 @@ This is a German-language D&D (Dungeons & Dragons) campaign repository documenti
 - `03 Avernus/` - Current story arc (Day 135+): Descent into the Nine Hells, includes subdirectories for crawl mechanics and specific locations
 
 ### Key Files
-- `Campaign.md` - Master campaign log written from Milo's perspective, chronicling all major events
+- `Campaign.md` - Master campaign log written in first-person from Milo's perspective
+  - Organized by chapter with day ranges (e.g., "Tag 1-23")
+  - Includes retrospective commentary in italics
+  - Serves as the canonical narrative source
 - `README.md` - Minimal project identifier
 
 ### Character Management
@@ -60,7 +63,10 @@ The item creator template (`item/item-creator.html`) provides a consistent forma
 Key mechanics files in `03 Avernus/`:
 - `ratgeber.md` - Comprehensive Avernus travel guide (humorous tone, detailed hazards)
 - `Seelenmünzen.md` - Soul coins mechanics
-- `Crawl/` subdirectory for hex-crawl mechanics and encounters
+- `Crawl/` subdirectory contains:
+  - `Travel Mechanics and Events.md` - Hex-crawl rules
+  - `Demon Ichor.md` - Special resource mechanics
+  - `Brimstone Bill's Mobile Outfitters.md` - Wandering merchant
 - NPC documentation in `Avernus_NPCs_Deutsch.md`
 
 ## Working with This Repository
@@ -97,4 +103,24 @@ Use `item/item-creator.html` as the base template. Update:
 6. Update `<title>` and image src if needed
 
 ### Adding Session Notes
-Session notes are typically numbered sequentially within chapter directories (e.g., `001`, `002`, etc.) and include location/event names in filenames.
+Session notes are numbered sequentially within chapter directories and include descriptive names:
+- Format: `00X Title.md` (e.g., `001 Auf nach Candlekeep.md`, `003 High Hall.md`)
+- Sessions may span multiple files if split across locations or events
+- The Avernus chapter includes a `Crawl/` subdirectory for hex-crawl mechanics and special encounters
+
+## Automation & Future Features
+
+### n8n Integration
+The repository includes a roadmap for automation features:
+- `dnd-n8n-features.md` - Comprehensive list of planned automation workflows
+- `dnd-n8n-features/` - Implementation planning and automation code
+
+**Key Planned Features:**
+- Auto-generate HTML campaign wiki from markdown
+- PDF session report generation
+- Automatic timeline generation from session notes
+- Git auto-commit workflows
+- AI-powered session summaries
+- Player-facing handout generation
+
+See `dnd-n8n-features.md` for the complete feature list and implementation priorities.

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{page.excerpt}}">
+    <title>{{page.title}} | {{site.title}}</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/images/favicon.ico">
+</head>
+<body>
+    {{> header}}
+
+    <div class="wiki-layout">
+        {{> sidebar}}
+
+        <main class="wiki-main" id="main-content">
+            {{#if breadcrumbs}}
+            {{> breadcrumbs}}
+            {{/if}}
+
+            <article class="wiki-content">
+                {{{content}}}
+            </article>
+
+            {{#if page.backlinks}}
+            <aside class="backlinks-section">
+                <h3>Erwähnt in</h3>
+                <ul class="backlinks-list">
+                    {{#each page.backlinks}}
+                    <li>
+                        <a href="{{this.url}}">{{this.title}}</a>
+                        <span class="backlink-meta">({{this.count}}x)</span>
+                    </li>
+                    {{/each}}
+                </ul>
+            </aside>
+            {{/if}}
+        </main>
+
+        {{#if page.toc}}
+        <aside class="wiki-aside">
+            {{> toc}}
+
+            {{#if page.relatedPages}}
+            <div class="related-pages">
+                <h4>Verwandte Seiten</h4>
+                <ul class="related-list">
+                    {{#each page.relatedPages}}
+                    <li><a href="{{this.url}}">{{this.title}}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/if}}
+        </aside>
+        {{/if}}
+    </div>
+
+    {{> footer}}
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/darkmode.js"></script>
+    <script src="/assets/js/navigation.js"></script>
+</body>
+</html>

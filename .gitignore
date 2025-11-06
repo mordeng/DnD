@@ -1,0 +1,33 @@
+# Wiki output (generated files)
+wiki-output/
+!wiki-output/assets/
+
+# Node modules
+node_modules/
+.wiki-build/node_modules/
+
+# Package locks
+package-lock.json
+.wiki-build/package-lock.json
+
+# Build artifacts
+.wiki-build/dist/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+.tmp/
+tmp/

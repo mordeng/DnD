@@ -1,0 +1,21 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol class="breadcrumb-list">
+        <li class="breadcrumb-item">
+            <a href="/">
+                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 10l7-7 7 7v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8z"/>
+                </svg>
+                Home
+            </a>
+        </li>
+        {{#each breadcrumbs}}
+        <li class="breadcrumb-item {{#if @last}}active{{/if}}">
+            {{#unless @last}}
+            <a href="{{this.url}}">{{this.label}}</a>
+            {{else}}
+            <span>{{this.label}}</span>
+            {{/unless}}
+        </li>
+        {{/each}}
+    </ol>
+</nav>

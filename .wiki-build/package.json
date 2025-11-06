@@ -1,0 +1,28 @@
+{
+  "name": "dnd-campaign-wiki",
+  "version": "1.0.0",
+  "description": "Static site generator for D&D campaign wiki",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node watch.js",
+    "serve": "npx http-server ../wiki-output -p 8080"
+  },
+  "keywords": ["dnd", "wiki", "static-site"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it": "^13.0.2",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-anchor": "^8.6.7",
+    "gray-matter": "^4.0.3",
+    "handlebars": "^4.7.8",
+    "minisearch": "^6.3.0",
+    "chokidar": "^3.5.3",
+    "glob": "^10.3.10",
+    "fs-extra": "^11.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "slugify": "^1.6.6",
+    "date-fns": "^3.0.6"
+  }
+}

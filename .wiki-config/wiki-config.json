@@ -1,0 +1,154 @@
+{
+  "wiki": {
+    "title": "Milo Quicksparks Abenteuerlogbuch",
+    "subtitle": "Eine epische Reise von Moreva bis in die Tiefen von Avernus",
+    "language": "de",
+    "baseUrl": "/",
+    "outputDir": "wiki-output",
+    "currentDay": 145,
+    "currentArc": "Avernus",
+    "currentLocation": "Fort Knucklebone"
+  },
+
+  "paths": {
+    "source": ".",
+    "templates": ".wiki-templates",
+    "config": ".wiki-config",
+    "build": ".wiki-build",
+    "output": "wiki-output",
+    "characters": "characters",
+    "sessions": [
+      "01 Deep Underground",
+      "02 Baldurs Gate",
+      "03 Avernus"
+    ],
+    "items": "item",
+    "assets": "wiki-output/assets"
+  },
+
+  "categories": {
+    "characters": {
+      "patterns": ["characters/**/*.md"],
+      "exclude": ["**/Avernus_Quest.md"],
+      "outputPath": "characters",
+      "template": "character"
+    },
+    "sessions": {
+      "patterns": [
+        "01 Deep Underground/**/*.md",
+        "02 Baldurs Gate/**/*.md",
+        "03 Avernus/**/*.md"
+      ],
+      "exclude": ["**/Crawl/**", "**/archive/**"],
+      "outputPath": "sessions",
+      "template": "session"
+    },
+    "quests": {
+      "patterns": ["characters/**/Avernus_Quest.md", "characters/**/*Quest.md"],
+      "outputPath": "quests",
+      "template": "quest"
+    },
+    "items": {
+      "patterns": ["item/**/*.html"],
+      "outputPath": "items",
+      "template": "item"
+    },
+    "general": {
+      "patterns": ["Campaign.md"],
+      "outputPath": ".",
+      "template": "general"
+    }
+  },
+
+  "theme": {
+    "fonts": {
+      "display": "Cinzel",
+      "body": "Crimson Text",
+      "mono": "Consolas"
+    },
+    "colors": {
+      "light": {
+        "bgPrimary": "#f9f1e6",
+        "bgSecondary": "#f0e6d2",
+        "textPrimary": "#2c1810",
+        "accentPrimary": "#8b4513",
+        "accentGold": "#d4af37"
+      },
+      "dark": {
+        "bgPrimary": "#1a1410",
+        "bgSecondary": "#2c2218",
+        "textPrimary": "#e8dcc8",
+        "accentPrimary": "#b8732e",
+        "accentGold": "#f4e4a6"
+      }
+    }
+  },
+
+  "navigation": [
+    {"label": "Home", "path": "/", "icon": "home"},
+    {"label": "Timeline", "path": "/timeline.html", "icon": "clock"},
+    {"label": "Characters", "path": "/characters/", "icon": "users", "children": [
+      {"label": "Spielercharaktere", "path": "/characters/pcs.html"},
+      {"label": "NPCs", "path": "/characters/npcs.html"}
+    ]},
+    {"label": "Locations", "path": "/locations/", "icon": "map", "children": [
+      {"label": "Arc 1: Deep Underground", "path": "/locations/arc-1/"},
+      {"label": "Arc 2: Baldur's Gate", "path": "/locations/arc-2/"},
+      {"label": "Arc 3: Avernus", "path": "/locations/arc-3/"}
+    ]},
+    {"label": "Sessions", "path": "/sessions/", "icon": "book"},
+    {"label": "Quests", "path": "/quests/", "icon": "target"},
+    {"label": "Items", "path": "/items/", "icon": "sparkles"},
+    {"label": "Factions", "path": "/factions/", "icon": "shield"}
+  ],
+
+  "characters": [
+    {"name": "Kalmaris", "slug": "kalmaris", "class": "Bard", "race": "Aarakocra", "status": "active"},
+    {"name": "Lamil", "slug": "lamil", "class": "Druid", "race": "Human", "status": "active"},
+    {"name": "Longjohn", "slug": "longjohn", "class": "Rogue", "race": "Human", "status": "active"},
+    {"name": "Lufnik", "slug": "lufnik", "class": "Monk", "race": "Human", "status": "active"},
+    {"name": "Milo", "slug": "milo", "class": "Alchemist", "race": "Gnome", "status": "active"},
+    {"name": "Serox", "slug": "serox", "class": "Fighter", "race": "Dwarf", "status": "active"}
+  ],
+
+  "features": {
+    "autoLink": true,
+    "backlinks": true,
+    "search": true,
+    "darkMode": true,
+    "dmMode": true,
+    "breadcrumbs": true,
+    "tableOfContents": true,
+    "relatedPages": true,
+    "recentUpdates": 5,
+    "analytics": false
+  },
+
+  "build": {
+    "incremental": true,
+    "minify": false,
+    "sourceMaps": false,
+    "watchDebounce": 5000,
+    "parallel": false
+  },
+
+  "search": {
+    "engine": "minisearch",
+    "fields": ["title", "content", "tags", "excerpt"],
+    "boost": {
+      "title": 2,
+      "tags": 1.5,
+      "content": 1
+    },
+    "fuzzy": 0.2,
+    "prefix": true
+  },
+
+  "excludePatterns": [
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/archive/**",
+    "**/wiki-output/**",
+    "**/.wiki-*/**"
+  ]
+}

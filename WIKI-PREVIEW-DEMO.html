@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Preview - Milo Quicksparks Abenteuerlogbuch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wiki-output/assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="wiki-header">
+        <div class="header-container">
+            <div class="header-brand">
+                <svg class="header-logo" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <path d="M20 8 L20 32 M8 20 L32 20" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="20" cy="20" r="5" fill="currentColor"/>
+                </svg>
+                <div class="header-title">
+                    <h1><a href="/">Milo Quicksparks Abenteuerlogbuch</a></h1>
+                    <span class="header-subtitle">Tag 145 • Avernus • Fort Knucklebone</span>
+                </div>
+            </div>
+
+            <nav class="header-nav">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/timeline.html" class="nav-link">Timeline</a>
+                <a href="/characters/" class="nav-link">Characters</a>
+                <a href="/sessions/" class="nav-link">Sessions</a>
+                <a href="/quests/" class="nav-link">Quests</a>
+            </nav>
+
+            <div class="header-utils">
+                <button class="header-search-toggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="8" cy="8" r="6"/>
+                        <line x1="12" y1="12" x2="18" y2="18"/>
+                    </svg>
+                </button>
+                <button class="theme-toggle">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="10" cy="10" r="4"/>
+                        <line x1="10" y1="1" x2="10" y2="3"/>
+                        <line x1="10" y1="17" x2="10" y2="19"/>
+                        <line x1="1" y1="10" x2="3" y2="10"/>
+                        <line x1="17" y1="10" x2="19" y2="10"/>
+                    </svg>
+                </button>
+                <button class="dm-mode-toggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 10s3-7 9-7 9 7 9 7-3 7-9 7-9-7-9-7z"/>
+                        <circle cx="10" cy="10" r="3"/>
+                    </svg>
+                    <span class="dm-mode-label">DM</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="wiki-layout">
+        <!-- Sidebar -->
+        <aside class="wiki-sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav-tree">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link active">
+                            <svg class="nav-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 10l7-7 7 7v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8z"/>
+                            </svg>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/timeline.html" class="nav-link">
+                            <svg class="nav-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="10" cy="10" r="8"/>
+                                <polyline points="10,5 10,10 13,13"/>
+                            </svg>
+                            Timeline
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="sidebar-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">145</span>
+                        <span class="stat-label">Tage</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">45</span>
+                        <span class="stat-label">Sessions</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">42</span>
+                        <span class="stat-label">NPCs</span>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="wiki-main">
+            <article class="wiki-content">
+                <!-- Hero Section -->
+                <section class="hero">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Milo Quicksparks Abenteuerlogbuch</h1>
+                        <p class="hero-subtitle">Eine epische Reise von Moreva bis in die Tiefen von Avernus</p>
+
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-value">145</span>
+                                <span class="stat-label">Tage gereist</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">45</span>
+                                <span class="stat-label">Sessions</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">3</span>
+                                <span class="stat-label">Story Arcs</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">6</span>
+                                <span class="stat-label">Heroes</span>
+                            </div>
+                        </div>
+
+                        <div class="hero-actions">
+                            <a href="/timeline.html" class="btn btn-primary">
+                                Timeline ansehen
+                            </a>
+                            <a href="/characters/" class="btn btn-outline">
+                                Die Party kennenlernen
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Current Status -->
+                <section class="current-status">
+                    <div class="status-card">
+                        <h2>Aktueller Status</h2>
+                        <div class="status-content">
+                            <div class="status-item">
+                                <span class="status-label">Tag</span>
+                                <span class="status-value">145</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-label">Arc</span>
+                                <span class="status-value">Avernus (3/3)</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-label">Ort</span>
+                                <span class="status-value">Fort Knucklebone</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-label">Party Level</span>
+                                <span class="status-value">10</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Quick Links -->
+                <section class="quick-links">
+                    <h2>Kampagne erkunden</h2>
+                    <div class="link-grid">
+                        <a href="/timeline.html" class="link-card">
+                            <svg class="link-icon" width="32" height="32" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="10" cy="10" r="8"/>
+                                <polyline points="10,5 10,10 13,13"/>
+                            </svg>
+                            <h3>Timeline</h3>
+                            <p>145 Tage voller Abenteuer</p>
+                        </a>
+
+                        <a href="/characters/" class="link-card">
+                            <svg class="link-icon" width="32" height="32" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 18v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2"/>
+                                <circle cx="10" cy="5" r="4"/>
+                            </svg>
+                            <h3>Characters</h3>
+                            <p>6 Helden, 42 NPCs</p>
+                        </a>
+
+                        <a href="/locations/" class="link-card">
+                            <svg class="link-icon" width="32" height="32" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M10 2a7 7 0 017 7c0 5-7 11-7 11S3 14 3 9a7 7 0 017-7z"/>
+                                <circle cx="10" cy="9" r="2"/>
+                            </svg>
+                            <h3>Locations</h3>
+                            <p>Von Moreva bis Avernus</p>
+                        </a>
+
+                        <a href="/quests/" class="link-card">
+                            <svg class="link-icon" width="32" height="32" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="10" cy="10" r="8"/>
+                                <line x1="14" y1="6" x2="6" y2="14"/>
+                            </svg>
+                            <h3>Quests</h3>
+                            <p>7 aktive Storylines</p>
+                        </a>
+
+                        <a href="/sessions/" class="link-card">
+                            <svg class="link-icon" width="32" height="32" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 2h12a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V4a2 2 0 012-2z"/>
+                            </svg>
+                            <h3>Sessions</h3>
+                            <p>Session-Notizen lesen</p>
+                        </a>
+
+                        <a href="/items/" class="link-card">
+                            <svg class="link-icon" width="32" height="32" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="10,2 2,7 2,13 10,18 18,13 18,7"/>
+                            </svg>
+                            <h3>Items</h3>
+                            <p>Magische Schätze</p>
+                        </a>
+                    </div>
+                </section>
+            </article>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="wiki-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Milo Quicksparks Abenteuerlogbuch</h4>
+                    <p>Eine epische Reise von Moreva bis in die Tiefen von Avernus</p>
+                    <p class="footer-meta">
+                        <strong>Tag 145</strong> • Avernus • Fort Knucklebone
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Schnellzugriff</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/timeline.html">Timeline</a></li>
+                        <li><a href="/characters/">Characters</a></li>
+                        <li><a href="/sessions/">Sessions</a></li>
+                        <li><a href="/quests/">Quests</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Kampagnen-Statistik</h4>
+                    <ul class="footer-stats">
+                        <li>🎲 45 Sessions</li>
+                        <li>🗓️ 145 Tage gereist</li>
+                        <li>👥 42 NPCs getroffen</li>
+                        <li>📍 28 Orte besucht</li>
+                        <li>✅ 12 Quests abgeschlossen</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 D&D Campaign Wiki • Made with ❤️ and 🎲</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="wiki-output/assets/js/darkmode.js"></script>
+</body>
+</html>

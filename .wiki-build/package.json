@@ -6,7 +6,12 @@
   "scripts": {
     "build": "node build.js",
     "watch": "node watch.js",
-    "serve": "npx http-server ../wiki-output -p 8080"
+    "serve": "npx http-server ../wiki-output -p 8080",
+    "test": "node test-wiki.js",
+    "test:full": "npm run build && npm test",
+    "test:visual": "echo '⚠️  Visual testing requires manual review. See PRE-DEPLOYMENT-CHECKLIST.md'",
+    "test:all": "npm run test:full && npm run test:visual",
+    "pretest": "echo '🧪 Running wiki tests...'"
   },
   "keywords": ["dnd", "wiki", "static-site"],
   "author": "",

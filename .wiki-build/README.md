@@ -263,11 +263,73 @@ Modify `build.js` to add custom build steps:
 - Custom parsers
 - Custom renderers
 
+## 🧪 Testing
+
+### Automated Testing
+
+The wiki has comprehensive automated testing:
+
+```bash
+# Run all tests
+npm test
+
+# Full test suite (build + test)
+npm run test:full
+
+# Test everything
+npm run test:all
+```
+
+**Test Coverage**:
+- ✅ Build health checks
+- ✅ Content validation
+- ✅ Link validation
+- ✅ Data integrity (characters, sessions, quests)
+- ✅ Search index validation
+- ✅ Accessibility checks
+
+### CI/CD Testing (GitHub Actions)
+
+Every pull request and push automatically runs:
+
+1. **Build & Content Tests** - Custom validation
+2. **Lighthouse CI** - Performance & accessibility
+3. **Link Checker** - No broken links
+4. **HTML Validation** - Valid HTML5
+5. **Accessibility Tests** - WCAG 2.1 AA compliance
+6. **Security Scan** - Dependency vulnerabilities
+
+**Results appear in**:
+- PR checks (✓ or ✗)
+- GitHub Actions tab
+- PR summary comments
+- Downloadable reports
+
+### Manual Testing
+
+For major changes, use the pre-deployment checklist:
+
+```bash
+# Open checklist
+cat PRE-DEPLOYMENT-CHECKLIST.md
+```
+
+Tests homepage, character pages, search, dark mode, mobile, and more.
+
+### Testing Documentation
+
+- **TESTING-STRATEGY.md** - Comprehensive testing approach
+- **TESTING-BEST-PRACTICES.md** - Industry best practices & comparison
+- **PRE-DEPLOYMENT-CHECKLIST.md** - Manual testing checklist
+- **test-wiki.js** - Automated test script
+
 ## 📚 Documentation
 
 - **Design Spec**: `dnd-n8n-features/WIKI-DESIGN-SPEC.md`
 - **Feature List**: `dnd-n8n-features.md`
 - **Config Reference**: `.wiki-config/wiki-config.json` (inline comments)
+- **Testing Strategy**: `TESTING-STRATEGY.md`
+- **Testing Best Practices**: `TESTING-BEST-PRACTICES.md`
 
 ## 💡 Tips
 

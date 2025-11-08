@@ -1,0 +1,44 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 3,
+      "startServerCommand": "npx http-server ./wiki-output -p 8080",
+      "url": [
+        "http://localhost:8080/",
+        "http://localhost:8080/characters/",
+        "http://localhost:8080/sessions/"
+      ]
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "categories:performance": ["error", {"minScore": 0.8}],
+        "categories:accessibility": ["error", {"minScore": 0.9}],
+        "categories:best-practices": ["error", {"minScore": 0.85}],
+        "categories:seo": ["error", {"minScore": 0.9}],
+        "categories:pwa": "off",
+
+        "first-contentful-paint": ["error", {"maxNumericValue": 2000}],
+        "largest-contentful-paint": ["error", {"maxNumericValue": 3000}],
+        "cumulative-layout-shift": ["error", {"maxNumericValue": 0.1}],
+        "total-blocking-time": ["error", {"maxNumericValue": 300}],
+
+        "image-alt": "error",
+        "heading-order": "warn",
+        "color-contrast": "error",
+        "link-name": "error",
+        "html-has-lang": "error",
+        "meta-viewport": "error",
+
+        "uses-responsive-images": "warn",
+        "offscreen-images": "warn",
+        "unminified-css": "warn",
+        "unminified-javascript": "warn",
+        "unused-css-rules": "warn"
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}

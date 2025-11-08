@@ -1067,34 +1067,210 @@ body:not(.dm-mode) .dm-only {
     --text-5xl: 2rem;
     --text-4xl: 1.5rem;
     --text-3xl: 1.25rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
   }
 
+  /* Header - Mobile Optimized */
   .header-container {
     padding: var(--space-3);
   }
 
   .header-brand {
     gap: var(--space-2);
+    flex: 1;
   }
 
   .header-title h1 {
     font-size: var(--text-base);
+    line-height: 1.2;
   }
 
   .header-subtitle {
     display: none;
   }
 
+  .header-logo {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+  }
+
+  /* Header Utils - Better Touch Targets */
+  .header-utils {
+    gap: var(--space-2);
+  }
+
+  .header-utils button {
+    min-width: 44px;
+    min-height: 44px;
+    padding: var(--space-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dm-mode-label {
+    display: none; /* Hide text on very small screens */
+  }
+
+  /* Mobile Menu Toggle - Enhanced */
+  .mobile-menu-toggle {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    padding: var(--space-3);
+  }
+
+  /* Hero - Mobile Optimized */
   .hero {
-    padding: var(--space-6) 0;
+    padding: var(--space-5) 0;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: var(--text-3xl);
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-size: var(--text-base);
+  }
+
+  .hero-stats {
+    justify-content: center;
+  }
+
+  .hero-stats .stat {
+    min-width: 120px;
   }
 
   .hero-actions {
     flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    min-height: 48px; /* Touch-friendly */
+    font-size: var(--text-base);
+  }
+
+  /* Content - Mobile Spacing */
+  .wiki-layout {
+    padding: var(--space-3);
   }
 
   .wiki-content {
     padding: var(--space-4);
+    border-radius: 8px;
+  }
+
+  /* Cards - Mobile Optimized */
+  .link-card,
+  .character-card,
+  .quest-card,
+  .status-card {
+    padding: var(--space-4);
+  }
+
+  .link-card h3 {
+    font-size: var(--text-lg);
+  }
+
+  /* Buttons - Touch Friendly */
+  .btn {
+    min-height: 44px;
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-base);
+  }
+
+  .btn-sm {
+    min-height: 40px;
+    padding: var(--space-2) var(--space-3);
+  }
+
+  /* Navigation - Mobile */
+  .wiki-sidebar {
+    width: 85%;
+    max-width: 320px;
+  }
+
+  .nav-tree {
+    font-size: var(--text-base);
+  }
+
+  .nav-link {
+    padding: var(--space-3);
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Tables - Horizontal Scroll */
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Images - Responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Footer - Mobile Stacked */
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+    text-align: center;
+  }
+
+  .footer-links,
+  .footer-stats {
+    justify-content: center;
+  }
+
+  /* Search - Mobile Optimized */
+  .search-overlay {
+    padding: var(--space-4);
+  }
+
+  .search-modal {
+    max-width: 100%;
+    padding: var(--space-4);
+  }
+
+  .search-input {
+    font-size: 16px; /* Prevents zoom on iOS */
+    min-height: 48px;
+  }
+
+  /* Timeline - Mobile */
+  .timeline-entry {
+    padding-left: var(--space-5);
+  }
+
+  .timeline-marker {
+    left: 0;
+  }
+
+  /* Character Grid - Single Column */
+  .character-grid {
+    gap: var(--space-4);
+  }
+
+  /* Status Bar - Wrap on Mobile */
+  .status-content {
+    flex-wrap: wrap;
+    gap: var(--space-3);
+  }
+
+  .status-item {
+    flex: 1 1 45%;
+    min-width: 120px;
   }
 
   .footer-content {
@@ -2183,3 +2359,423 @@ body:not(.dm-mode) .dm-only {
     align-items: flex-start;
   }
 }
+
+/* ========================================================================
+   MOBILE-FIRST ENHANCEMENTS
+   ======================================================================== */
+
+/* iOS Specific Optimizations */
+@supports (-webkit-touch-callout: none) {
+  /* iOS Safari */
+  .search-input,
+  input[type="text"],
+  input[type="search"] {
+    font-size: 16px !important; /* Prevent zoom on focus */
+  }
+  
+  /* Fix iOS input shadow */
+  input,
+  textarea,
+  select {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  /* Better iOS scrolling */
+  .wiki-sidebar,
+  .search-modal,
+  .wiki-content {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Touch Targets - Ensure Minimum Size */
+@media (max-width: 968px) {
+  a, button, input[type="button"], input[type="submit"], .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Larger tap area for small icons */
+  .nav-icon, .link-icon {
+    padding: var(--space-2);
+  }
+}
+
+/* Prevent Text Selection on UI Elements */
+.mobile-menu-toggle,
+.theme-toggle,
+.dm-mode-toggle,
+.filter-btn,
+.nav-toggle {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Mobile Performance Optimizations */
+@media (max-width: 968px) {
+  /* Reduce animations on mobile for performance */
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  /* Re-enable important transitions */
+  .wiki-sidebar,
+  .mobile-menu-toggle,
+  .search-overlay {
+    transition-duration: 250ms !important;
+  }
+}
+
+/* Landscape Mobile Adjustments */
+@media (max-width: 968px) and (orientation: landscape) {
+  .wiki-header {
+    padding: var(--space-2) var(--space-4);
+  }
+  
+  .header-title h1 {
+    font-size: var(--text-sm);
+  }
+  
+  .hero {
+    padding: var(--space-4) 0;
+  }
+  
+  .hero-stats {
+    gap: var(--space-3);
+  }
+}
+
+/* Extra Small Devices (< 375px) */
+@media (max-width: 374px) {
+  :root {
+    --space-3: 0.5rem;
+    --space-4: 0.75rem;
+    --space-5: 1rem;
+  }
+  
+  .header-brand {
+    gap: var(--space-1);
+  }
+  
+  .header-utils button {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  
+  .hero-stats .stat {
+    min-width: 90px;
+  }
+  
+  .link-grid,
+  .character-grid {
+    gap: var(--space-3);
+  }
+}
+
+/* Mobile Menu Backdrop */
+@media (max-width: 968px) {
+  .wiki-sidebar::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg-overlay);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity var(--transition-base);
+    z-index: -1;
+  }
+  
+  .wiki-sidebar.mobile-open::before {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+/* Mobile Typography Improvements */
+@media (max-width: 640px) {
+  /* Better line height for readability */
+  body {
+    line-height: 1.6;
+  }
+  
+  h1 { line-height: 1.2; }
+  h2 { line-height: 1.3; }
+  h3 { line-height: 1.3; }
+  
+  /* Better paragraph spacing */
+  p {
+    margin-bottom: var(--space-4);
+  }
+  
+  /* Lists */
+  ul, ol {
+    padding-left: var(--space-5);
+    margin-bottom: var(--space-4);
+  }
+  
+  li {
+    margin-bottom: var(--space-2);
+  }
+}
+
+/* Mobile Card Enhancements */
+@media (max-width: 640px) {
+  .link-card,
+  .character-card,
+  .quest-card {
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .link-card:active,
+  .character-card:active {
+    transform: scale(0.98);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+/* Mobile Search Enhancements */
+@media (max-width: 640px) {
+  .search-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg-overlay);
+    z-index: 9999;
+    display: flex;
+    align-items: flex-start;
+    padding-top: var(--space-6);
+  }
+  
+  .search-modal {
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    border-radius: 12px;
+  }
+  
+  .search-result {
+    padding: var(--space-4);
+    border-bottom: 1px solid var(--border-light);
+  }
+  
+  .search-result:active {
+    background: var(--bg-secondary);
+  }
+}
+
+/* Mobile Footer */
+@media (max-width: 640px) {
+  .wiki-footer {
+    padding: var(--space-6) var(--space-4);
+  }
+  
+  .footer-section {
+    margin-bottom: var(--space-5);
+  }
+  
+  .footer-section h4 {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-3);
+  }
+  
+  .footer-links,
+  .footer-stats {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+}
+
+/* Mobile Accessibility Enhancements */
+@media (max-width: 640px) {
+  /* Focus states more visible on mobile */
+  a:focus,
+  button:focus,
+  input:focus {
+    outline: 3px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+  
+  /* Skip to content link for screen readers */
+  .skip-to-content {
+    position: absolute;
+    left: -9999px;
+    top: var(--space-4);
+    z-index: 10000;
+    padding: var(--space-3) var(--space-4);
+    background: var(--accent-primary);
+    color: var(--text-inverse);
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .skip-to-content:focus {
+    left: var(--space-4);
+  }
+}
+
+/* Mobile-Only Utilities */
+.mobile-hidden {
+  display: initial;
+}
+
+@media (max-width: 968px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 968px) {
+  .mobile-only {
+    display: initial;
+  }
+}
+
+.mobile-block {
+  display: none;
+}
+
+@media (max-width: 968px) {
+  .mobile-block {
+    display: block;
+  }
+}
+
+.mobile-flex {
+  display: none;
+}
+
+@media (max-width: 968px) {
+  .mobile-flex {
+    display: flex;
+  }
+}
+
+/* Tablet Range (641px - 968px) */
+@media (min-width: 641px) and (max-width: 968px) {
+  .link-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .character-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Horizontal Scrolling for Tables */
+@media (max-width: 640px) {
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: var(--space-4);
+  }
+  
+  table {
+    min-width: 600px;
+  }
+  
+  /* Sticky first column on mobile tables */
+  table th:first-child,
+  table td:first-child {
+    position: sticky;
+    left: 0;
+    background: var(--bg-elevated);
+    z-index: 10;
+  }
+}
+
+/* Mobile Image Optimization */
+@media (max-width: 640px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .character-portrait,
+  .location-image {
+    border-radius: 8px;
+    margin-bottom: var(--space-4);
+  }
+}
+
+/* Mobile Code Blocks */
+@media (max-width: 640px) {
+  pre,
+  code {
+    font-size: 14px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  pre {
+    padding: var(--space-3);
+    border-radius: 6px;
+    margin-bottom: var(--space-4);
+  }
+}
+
+/* Mobile Bottom Navigation (Optional Future Enhancement) */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-elevated);
+  border-top: 2px solid var(--border-medium);
+  padding: var(--space-2);
+  z-index: 900;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 640px) {
+  .mobile-bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .mobile-bottom-nav-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-2);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: var(--text-xs);
+    min-height: 56px;
+  }
+  
+  .mobile-bottom-nav-item.active {
+    color: var(--accent-primary);
+  }
+  
+  .mobile-bottom-nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: var(--space-1);
+  }
+}
+
+/* End of Mobile-First Enhancements */

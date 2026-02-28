@@ -227,6 +227,57 @@
 - **Variation:** Jeder hat verschiedene Persönlichkeiten und Anforderungen
 - **🎭 Wie spielen:** Wie kleine Könige, bestehen auf Respekt und Protokoll. Jeder hat eigene Macken und "Regeln" für ihr Gebiet.
 
+**RAGGADRAGGA** - Wereeber-Kriegsherr
+- **Rasse:** Wereeber (120 HP), Hybrid-Form bevorzugt
+- **Gang:** Die Goreguts-Gang — 2 weitere Wereeber (Jibbs, Oozywog) + 2 Wereratten (Finnik, Yeegha)
+- **Fahrzeug:** Blutbespritzter Demon Grinder mit Mahlwerk und Abrissbirne
+- **Ausrüstung:** Stirnreif der Sprengkraft (Circlet of Blasting), 3 Seelenmünzen
+- **Persönlichkeit:** Brutal, direkt, respektiert nur Stärke
+- **Begegnung:** Greift die Gruppe nahe Fort Knucklebone an, will "Schulden" von Mad Maggie eintreiben
+- **🎭 Wie spielen:** Motorrad-Gang-Boss. Grunzt zwischen den Worten, brüllt Befehle, lacht bei Treffern. "MAGGIE SCHULDET MIR! UND IHR SEHT AUS WIE EINE ANZAHLUNG!"
+
+**BITTERER ATEM (Bitter Breath)** - Der gestürzte Grubenteufel
+- **Rasse:** Flügelloser Gehörnter Teufel (ehem. Grubenteufel L'zeth)
+- **Fluch:** Kann nicht sprechen (Worte werden zu Rauch), kann keine Verträge schließen (Dokumente schmelzen)
+- **Gang:** Hobgoblin-Marodeure unter Hoch-Graj Karkajuk
+- **Fahrzeuge:** Tormentor (mit Infernaler Sirene) + Devil's Ride + 2 Scavenger
+- **Motivation:** Hass auf Zariel, will Rache für seine Degradierung
+- **🎭 Wie spielen:** Tragisch-bedrohlich. Öffnet den Mund, Rauch quillt heraus. Schreibt wütende Nachrichten in den Sand, die sofort verwehen. Frustration ist greifbar und gefährlich.
+
+**FEONOR** - Die Nekromantin
+- **Rasse:** Mensch, neutral-böse Erzmagierin mit milchig-weißen Augen
+- **Hintergrund:** Von Mahadi (Rakshasa, Wanderndes Emporium) nach Avernus eingeladen, dann gelangweilt weggelaufen
+- **Fahrzeug:** "Goldenes Verderben" — Demon Grinder mit vergoldeter Todesrüstung, Ghast-Fahrer, Ghul-Besatzung
+- **Eskorte:** 10 Kriechende Klauen + 2 Tormentor (Mezzoloth-Besatzung)
+- **Accessoire:** Sonnenschirm aus Knochen und Menschenhaut
+- **🎭 Wie spielen:** Gelangweilte Aristokratin. Flüstert genervt, seufzt theatralisch. "Seid ihr fertig? *Seufz*." Hebt selbst kaum einen Finger, ihre Untoten erledigen alles.
+
+**PRINCEPS KOVIK** - Der Kettengeneral
+- **Rasse:** Kettenteufel, ehem. Kommandant der 8. Infanterieabteilung "Terror Inkarniert"
+- **Gang:** Das Achte Überbleibsel — desertierte Teufel mit eigenem Ehrenkodex
+- **Fahrzeuge:** Devil's Ride (Kovik) + 2 Devil's Rides (Bartteufel) + Tormentor (4 Stachelteufel) + Demon Grinder (8 Bartteufel)
+- **Emblem:** Eisenketten-8 auf purpurrotem Feld
+- **Ziel:** Genug Stärke sammeln, um Dämonen zurück in den Abgrund zu treiben
+- **Taktik:** Wer Seelenmünzen freiwillig abgibt, darf passieren. Wer Dämonen bei sich hat, wird sofort angegriffen.
+- **🎭 Wie spielen:** Verbitterter General im Exil. Militärischer Jargon, strategische Planung. Perverser Ehrenkodex: "Wir sind Deserteure, nicht Diebe." Benutzt NIEMALS Dämonen-Ichor.
+
+### **Harumans Hügel**
+
+**HARUMAN** - Narzugon (Zariels Henker)
+- **Rasse:** Narzugon (ehem. menschlicher Paladin von Helm)
+- **Rolle:** Kreuzigt Deserteure von Zariels Kreuzzug an eisernen Bäumen auf "Coward's Way"
+- **Reittier:** Nachtmahr mit infernalem Zaumzeug
+- **Bedrohung:** CR 13 — deutlich über Partylevel, soll als Warnung dienen
+- **Besonderheit:** Bei Angriff auf ihn wächst ein eiserner Baum mit dem Namen des Angreifers (DC 15 WIS-Save oder verängstigt)
+- **🎭 Wie spielen:** Fanatischer Vollstrecker. Donnernde Stimme, keine Gnade, keine Verhandlung. "DESERTEURE BEFREIEN?! IHR BELEIDIGT MEINE HERRIN!" Sieht sich als gerechten Richter, nicht als Monster.
+
+**JANDER SUNSTAR** - Vampir-Elf am Baum
+- **Rasse:** Elf, Vampir (verflucht zu ewiger Untote)
+- **Status:** An den größten eisernen Baum genagelt, Stirges halten ihn am Unleben
+- **Hintergrund:** Ex-Höllreiter, der bei Zariels Kreuzzug in Panik floh und das Portal hinter sich versiegelte
+- **Wissen:** Geschichte der Höllreiter, Zariels Verrat, Harumans Natur
+- **🎭 Wie spielen:** Gebrochen, flüsternd, reumütig. "Bitte... schneidet mich herunter." Jahrhunderte der Qual haben ihn demütig gemacht. Erzählt bereitwillig seine Geschichte — hat nichts mehr zu verlieren.
+
 ---
 
 ## 🎯 **KAMPFBEGEGNUNGS-NPCS**

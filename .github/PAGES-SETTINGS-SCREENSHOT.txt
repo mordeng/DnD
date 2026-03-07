@@ -1,0 +1,54 @@
+GitHub Pages Settings - What You Should See
+============================================
+
+Navigate to: Settings → Pages
+
+WRONG Configuration (showing README):
+┌─────────────────────────────────────────┐
+│ Build and deployment                    │
+├─────────────────────────────────────────┤
+│ Source                                  │
+│ ┌─────────────────────────────────────┐ │
+│ │ Deploy from a branch            [▼] │ │
+│ └─────────────────────────────────────┘ │
+│                                         │
+│ Branch                                  │
+│ ┌──────┐  ┌────────┐                  │
+│ │ main │  │ /(root)│  [Save]          │
+│ └──────┘  └────────┘                  │
+└─────────────────────────────────────────┘
+                  ↑
+            THIS IS WRONG!
+        (Deploys README.md)
+
+
+CORRECT Configuration (showing wiki):
+┌─────────────────────────────────────────┐
+│ Build and deployment                    │
+├─────────────────────────────────────────┤
+│ Source                                  │
+│ ┌─────────────────────────────────────┐ │
+│ │ GitHub Actions              [▼] │ │
+│ └─────────────────────────────────────┘ │
+│                                         │
+│ ⚡ Your GitHub Actions workflow is      │
+│    deploying to this site.              │
+└─────────────────────────────────────────┘
+                  ↑
+            THIS IS CORRECT!
+        (Deploys wiki-output/)
+
+
+How to Fix:
+1. Click the "Source" dropdown
+2. Select "GitHub Actions"
+3. The page will update automatically
+4. Go to Actions tab and check latest workflow
+5. Wait for deployment to complete
+6. Visit your GitHub Pages URL
+
+Your Pages URL should look like:
+https://[your-username].github.io/DnD/
+
+After changing to GitHub Actions and deployment completes,
+you should see your D&D wiki homepage, NOT the README!
